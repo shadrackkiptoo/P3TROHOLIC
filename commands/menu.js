@@ -10,6 +10,7 @@ module.exports = {
 
       let menuText = `🤖 *P3TROHOLIC INTERACTIVE BOT*\n`;
       menuText += `✨ _Status:_ Online | ⏱️ _Uptime:_ ${hours}h ${minutes}m\n\n`;
+      menuText += `📊 _.alive_ / _.status_ - Bot statistics\n\n`;
       menuText += `👑 *𝖦𝖱𝖮𝖴𝖯 𝖬𝖮𝖣𝖤𝖱𝖠𝖳𝖨𝖮𝖭*\n`;
       menuText += `│ ☛ _.admin_ - Group administration\n`;
       menuText += `│ ☛ _.hidetag_ - Ghost tag the whole group\n`;

@@ -18,6 +18,12 @@ npm start
 On first run the terminal will show a QR code — scan it with WhatsApp (Linked Devices).
 Send an image or reply to an image with any message; the bot will convert the image into a sticker and send it back.
 
+Additional commands
+- `.tts <text>` or `.say <text>` sends a native voice note.
+- `.download <URL>`, `.dl <URL>`, or `.video <URL>` downloads supported social videos.
+- `.lyrics <song name>` or `.lyric <song name>` searches for lyrics and artwork.
+- In groups, links from non-admin members are deleted and the sender is removed.
+
 Usage with command
 - Send an image with the caption `.st` and the bot will reply with a sticker.
 - Or reply to an existing image with the text `.st` and the bot will convert the quoted image into a sticker.

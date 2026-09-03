@@ -62,7 +62,6 @@ module.exports = {
         lines.push(
           '',
           '*UPTIMEROBOT*',
-          `📡 *Monitor:* ${monitor.friendly_name || monitor.id}`,
           `📈 *Status:* ${monitorStatus(monitor.status)}`,
           `📊 *Uptime ratio:* ${monitor.uptimeRatio || 'N/A'}%`,
           `⚡ *Average response:* ${monitor.average_response_time || 'N/A'} ms`

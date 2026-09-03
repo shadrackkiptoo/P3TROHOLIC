@@ -201,6 +201,27 @@ async function start() {
       const text = msg.message.conversation || (msg.message.extendedTextMessage && msg.message.extendedTextMessage.text) || '';
       const textTrim = text && text.trim();
 
+      // Remove non-admin link senders from groups before processing commands.
+      if (jid && jid.endsWith('@g.us') && /(?:https?:\/\/|wa\.me\/)/i.test(text)) {
+        const sender = msg.key.participant || msg.key.remoteJid;
+        try {
+          const metadata = await sock.groupMetadata(jid);
+          const senderData = metadata.participants.find((participant) => participant.id === sender);
+          const isAdmin = senderData?.admin === 'admin' || senderData?.admin === 'superadmin';
+          if (!isAdmin) {
+            await sock.sendMessage(jid, { delete: msg.key });
+            await sock.sendMessage(jid, {
+              text: `⚠️ *SECURITY WARNING:* @${sender.split('@')[0]} has been removed for sending links!`,
+              mentions: [sender]
+            });
+            await sock.groupParticipantsUpdate(jid, [sender], 'remove');
+            return;
+          }
+        } catch (error) {
+          console.error('anti-link guard failed:', error);
+        }
+      }
+
       // auto-moderator: check filters for groups and warn
       try {
         if (jid && jid.endsWith('@g.us') && textTrim) {
