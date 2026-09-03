@@ -17,9 +17,10 @@ function renderBoard(board) {
 }
 
 function winner(board) {
-  const lines = [, [3, 4, 5], [6, 7, 8],
-, [1, 4, 7], [2, 5, 8],
-, [2, 4, 6]
+  const lines = [
+    [0, 1, 2], [3, 4, 5], [6, 7, 8],
+    [0, 3, 6], [1, 4, 7], [2, 5, 8],
+    [0, 4, 8], [2, 4, 6]
   ];
   for (const [a, b, c] of lines) {
     if (board[a] && board[a] === board[b] && board[a] === board[c]) return board[a];
@@ -32,7 +33,7 @@ function instructions(game) {
   return `🎮 *TIC-TAC-TOE MATCH*\n\n${renderBoard(game.board)}\n\n⏳ *Current Turn:* ${game.turn} (@${playerLabel(turnJid)})\n\n👉 *To Move:* Reply with \`.ttt [1-9]\`\n🛑 *To Stop:* Type \`.ttt reset\``;
 }
 
-export default {
+module.exports = {
   name: 'ttt',
   aliases: ['.ttt', '.tictactoe'],
   description: 'Play Tic-Tac-Toe in a WhatsApp chat.',
