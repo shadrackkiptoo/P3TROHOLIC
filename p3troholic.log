@@ -5369,3 +5369,1837 @@ SyntaxError: Unexpected token 'else'
 [2026-09-03T02:31:02.775Z] INFO connection update full: { connection: 'open' }
 [2026-09-03T02:31:02.775Z] INFO connection update: open
 [2026-09-03T02:31:02.775Z] INFO connection opened
+[2026-09-03T09:55:31.660Z] INFO Webserver listening on port 3000
+[2026-09-03T09:55:34.033Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T09:55:34.036Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T09:55:34.036Z] INFO connection update: connecting
+[2026-09-03T09:55:35.056Z] INFO connection update full: {
+  qr: 'https://wa.me/settings/linked_devices#2@Um5wGYFihsehVGbyOy3UZ2Rt2aVEm4wq6vvKGcXTz8xGzXG7hXtGE9aCzg6X69tDoiOpUk5pZBMfQq9IdyCdhLLHp0Orvoj2VqY=,5IZUBb6QKQG+NfNHbyGKMPn53PYXjwLHdd8vblQ0JHc=,DEV4fHkQBE/hZ1H111h6W//BQ/CftM7feRK3uxNTqzw=,3kfzuVkMrFny6ET9t8tZxU3lXmD1dvyUIOUKGQlTw+M=,1'
+}
+[2026-09-03T09:55:35.056Z] INFO QR code / link (scan or open with WhatsApp Linked Devices):
+ https://wa.me/settings/linked_devices#2@Um5wGYFihsehVGbyOy3UZ2Rt2aVEm4wq6vvKGcXTz8xGzXG7hXtGE9aCzg6X69tDoiOpUk5pZBMfQq9IdyCdhLLHp0Orvoj2VqY=,5IZUBb6QKQG+NfNHbyGKMPn53PYXjwLHdd8vblQ0JHc=,DEV4fHkQBE/hZ1H111h6W//BQ/CftM7feRK3uxNTqzw=,3kfzuVkMrFny6ET9t8tZxU3lXmD1dvyUIOUKGQlTw+M=,1
+[2026-09-03T09:55:35.081Z] INFO ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▄▀▀▀▄█▀█ ▀▄ ▀███▄ ▀█▀▀▄  █▀ ▄▄██▄█ ▀ █▀█▀██  █ ▄▄▄▄▄ █
+█ █   █ █ ▄█  ▀▄▄▀   ▀███▀▀▄█ ▄▀▄▀█▄▀ █▀▀▄▄ ▀█   ▀  ▄ █ █   █ █
+█ █▄▄▄█ █▄ ▄▀█   ▀▄▄ ▄▄▄███▀▄ ▄▄▄ ▀▀█▄▄▄▄▀▀█▀▄▀██▀█ ▄██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀▄█▄▀ ▀ █▄▀ █ ▀ █▄█ █▄█ ▀▄█ ▀▄█ █▄█▄█ ▀▄▀ ▀ █▄▄▄▄▄▄▄█
+█ ▄  ▀█▄▀ ▀ █ ██▄█▀▀ ▀▄▄ ▀█▄ ▄▄  ▄▄▄▀▀▀▄█▄ ▀▀▀██▄▀████▄▀▀   ▀▄█
+█▀▄ █▀█▄ ▀▄▄▄▄▀ █ ▀▀█▀▄▄█▀██▄▀███▄  █▄█▀▄█ ▄▀▀▀▀ ▀▀▀▀▀ ▄▄▀▀▀███
+█ ▀▄▀ ▄▄▄█ ▄ █▄▀ ▄▄ ▄ ▀█▄▄▄▀███▀▀▀ █ ▀▀▄▀█▄▄ ▀▀█▀▄ ▀█▄▄█▄▀█▄█▀█
+█▀ █ ▀▀▄▄▀ ▀▀▀ █▄█ █ ▀ ▀█ █▀ █▀▄█▀▀▀ ▄ █ ▀▀  ██▄█▄ ▄▄▄█▄ ▄█▄▀▀█
+█▀▀▀█▄█▄█▄▀  ▀█▄▄▀▄▀▄▄▄  ▀▄  █▄██ █▀ █▄▄ ▀ █▄▄  ▀█▀▄▀  █▄▄▀  ▄█
+██▄▀  ▄▄ █   ██ ███▀▄▄███▀▄██▄▄██▀▀ ▀▄▄   ██ ██ █▀▄▄▀▀██▀▄ ▄▄▄█
+█  █▄▀▄▄▄▀▀▀ ▄▄ █▄▄██▄█   █▀▀▀▀▄▄▀█▀ ▀▀█▀▄▀▀▀▀▄▄▄█ ███▀▀ ▀█▄ ▄█
+██▀▀  ▄▄  ▀████ ▄▄█ ▄  ▀▀██▄▀ ▀▄▄▄▀▀▄  ▀▄ ▀▄ ▀▄▄▀▀█▀▄ ▀▀  ▀▀▄▀█
+███ ▄  ▄▀▄▄ ▀█▄▄ ▄ █▄▀███▄▀▀▀▄▄▀█ ▀▄▄▄▀▀█▀█▄▄█ ██▄   ▄▄████ ▀▀█
+█ █▄▄▄ ▄▀   █▄▀█▀ ▀▀██ ▄ ▀▀ █   █ ▀  ▀██▀▄▄█▀▄▀▀▀▀█▄▀ ▄▄  █▄ ▀█
+██▀▄█ ▄▄▄ ▄█▄▄██▀▀ ▀▀█ ██▄▄ ▀ ▄▄▄ ▀▀ █ ▄▄██▄▄  ▀█▀▄▄█ ▄▄▄ ▀█▀▀█
+███▀  █▄█  ▀▄█▄██ █▀ █ █▀▀▀▀▀ █▄█  ██ ▄▀▄▀▄█▄▀▄█  ███ █▄█ ▄▄  █
+█▄▀▀▄  ▄  ▄▀█ █ █ ▄▀ ██▄▄▀▀█▀ ▄   ██▀▀█▄  ▀ ██ █▄▀ █▄ ▄ ▄▄▄█▄ █
+█▄▄▄▄▄▄▄▄██▀▀██▀▀▄█▀ ▄████▄▄██ ██▄▄▀ ▀▀█▄█ █ ▄▀ ▀▀▄▀▀█▀██▄ ▀▀▀█
+██▄█▀ ▀▄▄▀█  ▄█▄ ▄▄ ▀ █▀▄█ ▀ ▀█▄ ▄██ ▄▄▀ █ █ ▀ █ ▄ ▀ ▀▀▀ ▀▀██▀█
+██▀▄███▄▄▀▀▀█   ██▀▀▀█▀ ▄ █ █▀ ▀▀▄▄▄ ▀█  █▀▄▄ ▀▄ ▀▄█▄█ █▄██▄▄▀█
+██▄▄▄  ▄▄▄█▄▀▄ ▀▀▀ ██ ▄██▄ █▄██▀▀   ██▀█ ▀▀▄▄▄▄ ██▄██▄▄ █▄  ▀██
+█▀▀█ ▀█▄█▀  ▄ █     ▀▄ ██ ▀  ▀▀ ▀ ▀▀▀▄ ▄▄████ ▀ ▄▀█ ▄▀▄ ██▀▄█▄█
+█▄█▄▄█▄▄▄▄▄ █▄▄██▄ ██▄▄  ▀ ▀▀█ █ ▄█▄▄▄     ▀▀▀▄█▀█▀▄▀  ██▄▄████
+█▄▀▄▀ ▀▄ ▄▀███▀▀▀ █ ▄█▄▄▀████  ▀ ▄▀▀▀ ▀▄▀▄█ ▀█ █▀▀▄█▄██▀ █▄▀█▀█
+█ ▄▄█▄▄▄▀▄▄▄ ▀  ██   ▀█▄█ ▀█    ▄▀█▄▀▄▄ ▀██▄▄▀▀▄ ▄▀ ▄▀▀█  ▀▄ ▄█
+█▀▀ ▄ ▄▄▀   █▄ ▄ ▄█▄ ▄█▄▀▄▄▀█ ▄▄▄▄█▀█▄█ ▄ █▄█ ██▄█ ▄█▄ ██▀▀▄ ██
+█▄▄▄▄██▄█▀██▀▀   ▀▀▀█▄ ▀█▄ ▄█ ▄▄▄ ▀▄▀█▄▄▀▀▀▄▄ ▀▀▀█▀▄▀ ▄▄▄ ▄ ▀██
+█ ▄▄▄▄▄ ██▄ ▀██▀▀█ ▀▀ ▄▀ ▀▀▀▀ █▄█ ▄▀▀██▀▀▄█▄▄▄  ▀   ▄ █▄█  █ ▄█
+█ █   █ █▀▄▄█▀ ██▄▄ ███ █  █▀  ▄  ▄▄▄█▀█▄ ▀▀██ ▄▄█▀██▄   ▄ ▀█ █
+█ █▄▄▄█ █  ▀█▀ ▀▀ █▀ ▄█▄▀▀█  ▀▄▀ █▀█ █▀▄▀ ▄▄ █▀ ▄▀ ▀▄▀▀▄▄ ▀ ▄██
+█▄▄▄▄▄▄▄█▄▄██▄▄▄█▄▄▄▄▄██▄▄▄████▄▄█▄██▄▄████▄▄███▄▄█▄▄▄█▄████▄▄█
+
+[2026-09-03T09:55:37.073Z] INFO WhatsApp pairing code: QZXFJM32
+[2026-09-03T09:55:37.073Z] INFO On your phone: WhatsApp > Linked devices > Link a device > Link with phone number.
+[2026-09-03T09:56:35.096Z] INFO connection update full: {
+  qr: 'https://wa.me/settings/linked_devices#2@WgSJ6NwbxU4LW3GUGCijmbW/VhoBS50JHup0MNQUJpv5wy5g/CaqqrtStKJEMqvb+afq4p/8U5BOq3Z+csxQeio1OpNDU+fFEic=,5IZUBb6QKQG+NfNHbyGKMPn53PYXjwLHdd8vblQ0JHc=,DEV4fHkQBE/hZ1H111h6W//BQ/CftM7feRK3uxNTqzw=,3kfzuVkMrFny6ET9t8tZxU3lXmD1dvyUIOUKGQlTw+M=,1'
+}
+[2026-09-03T09:56:35.096Z] INFO QR code / link (scan or open with WhatsApp Linked Devices):
+ https://wa.me/settings/linked_devices#2@WgSJ6NwbxU4LW3GUGCijmbW/VhoBS50JHup0MNQUJpv5wy5g/CaqqrtStKJEMqvb+afq4p/8U5BOq3Z+csxQeio1OpNDU+fFEic=,5IZUBb6QKQG+NfNHbyGKMPn53PYXjwLHdd8vblQ0JHc=,DEV4fHkQBE/hZ1H111h6W//BQ/CftM7feRK3uxNTqzw=,3kfzuVkMrFny6ET9t8tZxU3lXmD1dvyUIOUKGQlTw+M=,1
+[2026-09-03T09:56:35.123Z] INFO ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▀▄▄▄▄▀  █▀▄ ▄▄ █▄▀▄ ▄▀▄ ▄ ▄ ▄▄  ▀█ ▀█ ▄█▀██  █ ▄▄▄▄▄ █
+█ █   █ █▄▄████▄▄▀███▀ █ ▄▄▄▄▄▀▄▀▀█▄█▄▄ ▀▄▀█ ▄▄██▄█ ▄ █ █   █ █
+█ █▄▄▄█ █ ▄ ▄▄▀▄▄███▄ ▀ ▄▄▄█  ▄▄▄ ███ █▄ █ ▄▀ ▄▀▄ ▄ ▄██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█ █ ▀ ▀▄█▄█▄▀▄▀▄▀ █ █ █▄█ ▀ █▄▀ ▀▄█▄█ ▀▄▀▄▀▄█▄█▄▄▄▄▄▄▄█
+█▄ █ ▀▀▄▄▀▀  █ █▄█▄▄█▀▄▄█▄ ▄▄▄ ▄▄▄▄██ ▄▄█▄█▄▄▀██▀▄ ███▀▄▄ ▀▄▄▀█
+█ █▀ █▄▄███ ██ ▄▀▄█▄▄█  ▄ █  █▄▄▄ ▀█▄▄▄█ █▀█ ████▄ ▀██▀█████▄▄█
+█ ▀▄▀█▄▄█▄▄█ █▄▄█  ▄▄█▄ ▄▄▄▄  █▀▀▄▄  ▀▀▀ ▄█▄ ▄▄ ▄▄▀█▄▀ █▄▄ ▀█▀█
+█▄█▀██▄▄▀ ▀█▄▄██▄ █ █▀ ▀ █▄█ █▄▀ ▀▀▀█▀██▀ █████▄▀ ▄▄ ▄ ▀█▄█▄▄▄█
+█  █▀ ▀▄███▄▀█▄  ██ █  ▄▀ ▀▄▄▀▀▄▄▄▀█▀▄█ ▄█▀▄█ ▄▄ ▄  █▄▀▄█ █▄▀██
+█ ▄▄█▀█▄ ▀██▀ ▀   █▀▄▀▄██▀▄ █  ▄  ▄██ ▄█████   ▀█▀▄▀▄▄███▀█▀▄▄█
+█ ▄█▄ ▄▄▀▀▀▀▄ █▀█▄▀  ▄▄▄██ ▀███▀▄ █▀█  █▀▄▄▄ ▀▄▄▀ ████▄▄▄██▄█▀█
+█▀▀█▄██▄▀▄█▀ ▄▀   ▄▀▀▀▄█ ▄▄ ██▀█▀▄▀▀█ ▀█ ▄ █▀▄    ▄█ ▄  ▀▄██▄ █
+█▄█▀▀█ ▄▀▀▀█▀█▄▄█▀ █▄▄  █▄▀▄ ▀█ █▄▀▀▄ ▀▄ ▄█▄▄ █ █▄ ██▀▄██ ▄▀▀▀█
+██ ██▄█▄▄▄▄█ ▀▄█▀  ▀ █ ▄█▄▄▀█ ██  ▄██▄ █▀▄▀▄▄▄▀▀ ▄▄▄▀ █▀█ ▀██▄█
+█▄  ▀ ▄▄▄ ▀▀██▄▀██▄▄ ▀▄▀▀█▀ █ ▄▄▄ ▄█▀▄▀ ▄██▄█▄▄█▄ ▄ ▄ ▄▄▄ ▄   █
+███▄▄ █▄█ ▄▄▄█▄ ▀ █▀  █ ▄ ▀█▄ █▄█ █▀█ ▄▄ ▄██▄▄▀ ▀▀▄   █▄█ ▀▀  █
+█▀▄▀▄ ▄▄▄  ▀█   █ ▀▄███▄▀▄ ▀▀  ▄▄ ██▄▄ ▄  ▄█ █ █▀▄██ ▄▄  ▄▄█▀██
+█▀█   █▄ ▀▀██▀ ▄█ ▄ ▀  ▀▄▄█ ▀▀▀▄▄  █▀  ▀ ▀▀▄▀▄█▄  ███▀▄▄▄ ▄█  █
+█▄▀ ▄  ▄ ▀ █▀▀▀▄█▀▄  ▄ ▄▄█ ▄█▄█▄ ▀  ▄  ██  █ ▄█▀ ▄ ▄█▄▀▀ ▄▄ ▀██
+██▄▄█▄▄▄  ▀▀▄█▀▀██▄▄▀▄▀ ▀█  ██▀▄██▄▄▄▄ ▀ █▄▀▀▀▀██▄▀█▄██ ▀██▄█▄█
+█▄▄ ▀█ ▄█ ▀  ██▀██▀▄▄▄ ▀▄█▀▀▄▄▄▄▀ █▄▄▄ ▀▄█ ██  ▄▄▄█▀▀ █▀▀▀▄▄ ▄█
+█▀▀▀█▀▄▄█▄▀ ▄ ████▀█▀▀█ █ ▀ ██ ▄▀█▀▄▀▄ ▀█▄█▀██▄█ ███▀▄▄ ▄ ▄ █▄█
+█▀ ▄▀█▀▄▀▄▀  ▀▀█ ██  ▄▄ ▄█ ▀▀██▄▄▄▄▄▀▀█ █▄▀█▄▀▄██ ▄▄▀ █  ▄▄█  █
+██ ▀▀▄ ▄▀ ▀ ▄▄ █▀█▄▀█▀  █▀▄▄▀▄▀ ▀ █▄ ▀  ▄▀▄▀ ▀▄▀▀▀█▀▄ ▄ ▀▀ █▄ █
+█ ▄▀ ▀▄▄▀██▄█  █     ▄ ▀█ ▀ ██  ▄▄ ▀▀▄▄█▄ █▄▄▄▄▀ ▄▀█▀▀█  █▄▀ ▄█
+█▀▀ ▄ ▄▄▄▀   ▄█▄ ▄ ▀█▄▀█▄▀▀▀█ ▀▀▀▄█▀ ▀  ▄  ▀  ▀█▀ █▄█▄▀  ▀▀▄█ █
+█▄▄▄▄██▄█ ▀▀▄▄ █▄█  ▄  ▀▄█▀ ▀ ▄▄▄ █    ▀██ ██▄▀▄ ▄  █ ▄▄▄  ▄ ▄█
+█ ▄▄▄▄▄ █▄▀█▀▄▄▄▄  ▀ ▀▀▄ ▀▀▄  █▄█ █▄▀███▄▀█▄█▀██▀  █▀ █▄█ █ ▄▄█
+█ █   █ █▀▄▄ ▄▀▀█▄▀█ ██  ████▄▄ ▄ ██▀ ▄█▄ ▄▄ █ ▄▀ ▄██▄▄▄▄▄▄█ ▄█
+█ █▄▄▄█ █▀▄▀▄ ▀██▄ ▄▀ ▀   ▄▀▄█▀ ██▄ ▀▄  █▄█▀▀▀█▄█▄█▀ █ ██▄▄▄█▄█
+█▄▄▄▄▄▄▄█▄█▄█▄▄█▄█▄▄▄█▄▄██▄▄▄▄█▄█▄▄██▄▄▄▄▄█▄▄▄▄▄▄▄█▄███▄█▄▄█▄▄█
+
+[2026-09-03T09:56:55.129Z] INFO connection update full: {
+  qr: 'https://wa.me/settings/linked_devices#2@Tv32gnuaMig4hSZzvJwQG0OquH+Qc1iafsAYXiYeTFxmmuj1o/MTwUyGr80ImmIl4gT46rGn5ix3WuVAST0y+9bpk1vrVm2ZC5s=,5IZUBb6QKQG+NfNHbyGKMPn53PYXjwLHdd8vblQ0JHc=,DEV4fHkQBE/hZ1H111h6W//BQ/CftM7feRK3uxNTqzw=,3kfzuVkMrFny6ET9t8tZxU3lXmD1dvyUIOUKGQlTw+M=,1'
+}
+[2026-09-03T09:56:55.129Z] INFO QR code / link (scan or open with WhatsApp Linked Devices):
+ https://wa.me/settings/linked_devices#2@Tv32gnuaMig4hSZzvJwQG0OquH+Qc1iafsAYXiYeTFxmmuj1o/MTwUyGr80ImmIl4gT46rGn5ix3WuVAST0y+9bpk1vrVm2ZC5s=,5IZUBb6QKQG+NfNHbyGKMPn53PYXjwLHdd8vblQ0JHc=,DEV4fHkQBE/hZ1H111h6W//BQ/CftM7feRK3uxNTqzw=,3kfzuVkMrFny6ET9t8tZxU3lXmD1dvyUIOUKGQlTw+M=,1
+[2026-09-03T09:56:55.139Z] INFO ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▄  ▀▄ ▄█▀▄ █ ▀   ▄ █   ▄▀█ █ ▀▄██ ▄▄▀█  █ █  █ ▄▄▄▄▄ █
+█ █   █ ██▀▀  ▀▀▀█ ▀▄█▀▀█ ▀  █ ▄▀█   ▀ █▄ ▄▀█ ▀▀    ▄ █ █   █ █
+█ █▄▄▄█ ██▀▄  ▄ ▀▀ ▀ ▄█▄▀ ▀▀█ ▄▄▄  ▀   ▄█▀█ ▀▄██▀▄▀ ▄██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█ ▀▄█ █ ▀ ▀ ▀ █ █▄▀▄█ █▄█ █▄▀▄█▄█ ▀ ▀▄█ █ █ ▀ █▄▄▄▄▄▄▄█
+█▄▄█ ▄█▄▀█▄▄█▀█▀▀▀▀  █▀   █ █▄▄   █▀█▄▀     ▀█ ▀▄ █▀ ▀█ ▀█▀▀▀▄█
+█▄ █▄▀▀▄ ▀▀▄ ▀█ ▄ ▄▀▀▀█▄▀▄█▀█▀▀ ▀▄█▄▀ ▀▀▀█▄▀█▀ ▀ ▄▀█ ▀ ▀ ▀  ▀ █
+█▄▄▀ ▀▀▄█ ▄▄█▀▀  ██▄▀▀▀▄  █▄█▄ █▄ █▄██▄█▄▄ ▀█ ▀▄▀ █ ▀▄▀ ▀ ██ ██
+█  ▄▀██▄▄▀▀▄▀  ▀▄▄ ▄ ████  ██▀▀███▄█ █ ▀▄█ ▀ ▀  ██▀ ▀▀██    ▀ █
+█▄█▀▄ ▀▄ ▀█▀██▀▄█▀ ▄ ▄█ ▄▄▀ ▀█ ▄▀ ▄▀▄  ▄▀▀▄  ▄▀ █ █▄  ▄  ▄  ▄▀█
+█▄█  ▀ ▄█▄ ▀▀█▄▀█▄ █▀█ ▄ █▀▄▀▄▀ ▄▄▀▀ ▄█▀ ▀ ▀█▄▀▀ █▀█▀  ▀▄█ █▀ █
+██▀▀▀▀▄▄▄█▄█  ██  ▄▄█ ▀▄ ▀██▄▀▀▀▄  ██ ▀ ▄ ▀ ▄▀▀ ▄▄ ▀ ▀▀ ▄█  ▄▀█
+███▀▀ ▀▄▄  █▄ ▄▀█▄▀█▄█▀▀█ ▀▄▀▀▄▀ ▄▄▀█▄▄▀█ █▀▄ ▄██▄▀▀█ █▄█▀ ▀▀ █
+██▄ ▄▀█▄▄█▄▀▄▀▀▄ ██▀▀ █▄  ▄ ██▀█   ██ ▄ █   ▀▄ ▄  █▀ █▀▀ ▄█▀█▄█
+█▀█▄▀  ▄█▄▄███▀▀▄▄▀ █▀█   ██ ▄ ▀█▄▄█  █▀ ▄▄ ▀ ▄██ █▄▄▄ █ ▄    █
+█ ██▀ ▄▄▄ ▀▄ ▀▀█▀▀▀▄██▀█▀▀▄▄  ▄▄▄ █ ▄ ▄▄▀▀▄▀  ▀▀▀  ▄▀ ▄▄▄  ▄█▄█
+█▀ ▄▄ █▄█ █▀▀▀▀▄█  ██▄ ▄▀▀█ ▀ █▄█ ▀█ ▄▀ ▄▀  ▀ ▄▄▄▄ ▄█ █▄█ ▄██▄█
+██▀█▀▄ ▄ ▄  ▄▀█▄ ▄▄  ▀  ▄ ▀█▄▄▄  ▄ ▀▀ █ █▄▀▀█▀█▀▄  ▀▄▄ ▄▄ ▀▀▄▀█
+██▄▄█▄ ▄  ▄▀█▀▀█ ▄▀▄▄▄▀▀▀  ▄▄█▄ ▀▄█▀▄ ▀███▄  ▄▄▄█▄ ▀ █ ▄▀▄▀▀█▄█
+█ ▄▄▀▄▀▄▄▀█▀█▀▄▄ █▀▄▄▀█▄▀▀█  █  ███▄▀▄█  ▄█▀█▄▀▄█ █   ▄██ ▀▄ ▀█
+█▄▀  ▀▀▄▄▄▄█▀▀▀▄ ▀▀ █▀▄▄▄▀█▄▄█ ▄  ▀ ▀ ███▀▀███▄▀  ▄▀▀▀ ▄▄▀    █
+█ ▄▀ ▀ ▄ ▄▄▄█▀▀  ▀▄ ▀ ██▀▀▄██▄▄▄█▄▀ ▀ ██▀▀█▀ ▄█ ▀  █▄▄ █▀█▀▄█ █
+██▄▄▄█▄▄  ▄█▀▄ ▀ ▀█▄▄█ ▄ ▄ █▄▄▄▄▄▀▄▀▄ ██▄  ▀ ▀▀▀▀█▄▀▄ ▀▄█ ▀▄  █
+███ ▀▀▄▄▄ █▀██▄▀▀  ▄█ ▀▄▀ ▀██▀  ▀▀▀ ▄█ ▄▀  ▀▀█▀▀█ ▀ ▄▄ ▄█  ▀█▄█
+█▀█▄█ █▄▄▄▀ ▀ █▀█▀▀█ ██▄▀ ▀ ▄ ▄▄▄▄  ███▄▀█ ███▀█▄█ ██▄▀▄▄██▀▀▄█
+█▄▀███▀▄█ ▄ ▄██▀█▄█▄█ ██ ▄▄▄ ▀█▄▀ ██▄ ▀▀▀▄  ▀ ▀██ ▄▀▄▀▀██▀▀██ █
+█▀▀ ▄ ▄▄█▀█▄▄▄█ █ ██  ▄▀▀█▄█ ▄▄█▄  █▀▀▀ ▀▄███▄ █▄▄  ▀ ▄ ██▄  ▄█
+█▄▄▄▄██▄█▀▄███ ▀▀▀█▄ ▄▄█▀▀▄▄▄ ▄▄▄  ▄█ ▀█ ▀█▀▄▄▄▀█ █▄  ▄▄▄ █ ▀▄█
+█ ▄▄▄▄▄ ██▄▀ ▄ ▄▀▄██▀█▄ ██▄ ▀ █▄█   ▄   ▀█  ▀▄▀▀▄▄█▀▄ █▄█  ▄▀ █
+█ █   █ █ ▀ █ ▄█  ▄▀█▀ ▄█▀ ▀▄▄ ▄ ▄ ▀▄▄▀▀▀▄▀ █▀█ ▄▄▀▀      ▀██▀█
+█ █▄▄▄█ █▀▄▀▀▄▄▀  ▄▄▄▄▄▄█▄  ██▄  ▀█ ▄ █▄ ▄▄█▄█  ▄▄▄██▀█▀  ▀▀  █
+█▄▄▄▄▄▄▄█▄██▄▄██▄▄█▄███▄█▄█▄█▄▄▄█▄▄█▄▄█▄▄▄▄██▄█▄▄▄▄█▄█▄▄▄▄███▄█
+
+[2026-09-03T09:57:15.143Z] INFO connection update full: {
+  qr: 'https://wa.me/settings/linked_devices#2@mCGpKdmmrmzHYoIxh0No/TTSW/zAk1/wqX/QbOLSH4BMdMOyCTvgmOHkD7TdOpm8Tvet0tHv43XXKCJHLCaZP1LB9KcPGjr0Bt0=,5IZUBb6QKQG+NfNHbyGKMPn53PYXjwLHdd8vblQ0JHc=,DEV4fHkQBE/hZ1H111h6W//BQ/CftM7feRK3uxNTqzw=,3kfzuVkMrFny6ET9t8tZxU3lXmD1dvyUIOUKGQlTw+M=,1'
+}
+[2026-09-03T09:57:15.143Z] INFO QR code / link (scan or open with WhatsApp Linked Devices):
+ https://wa.me/settings/linked_devices#2@mCGpKdmmrmzHYoIxh0No/TTSW/zAk1/wqX/QbOLSH4BMdMOyCTvgmOHkD7TdOpm8Tvet0tHv43XXKCJHLCaZP1LB9KcPGjr0Bt0=,5IZUBb6QKQG+NfNHbyGKMPn53PYXjwLHdd8vblQ0JHc=,DEV4fHkQBE/hZ1H111h6W//BQ/CftM7feRK3uxNTqzw=,3kfzuVkMrFny6ET9t8tZxU3lXmD1dvyUIOUKGQlTw+M=,1
+[2026-09-03T09:57:15.150Z] INFO ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▀█ ▀▀▀▀▀ █  ███▀ ▀█▀█▀█▀▄▀▀▄ ▄▀▀▄▀▄▀▄▀▀▀███  █ ▄▄▄▄▄ █
+█ █   █ █▀█▄▀▀ ▄█  ▀█▀▄██  ▄▄▀▄▄█▄▄█  █▄ █▄▀▄▄█   ▀ ▄ █ █   █ █
+█ █▄▄▄█ █▀█ █▄█▀███▀▀█▀▀▄ ▀ ▀ ▄▄▄ ▄█▄ ▄█▀█  ▀██▀▄▄▀ ▄██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄█▄▀ ▀▄█ ▀ █▄▀ █▄█ █ █▄█ █▄█ ▀ ▀ ▀ █ ▀ █ ▀▄█ █▄▄▄▄▄▄▄█
+█▄ ▄  █▄   ▀█▀▄██▄▀ ▀▀██  ▄▄  ▄  ▄█▄ ▄ ▄▄█   ▀▄▄▄ ▄█▄▄▄▀ ▀▄█ ██
+█▄ █▀█▄▄▄▄▀▀█▀█▀ ▄ █▀ ▀ ▄▄█▄▀█▄ ▀█▀ █ ▀ ███▀█ ▄██ ▀ ▄███  ▄█▄ █
+█▄▀ █  ▄▄█▀▄▄▀▄█▄█ ▄▄▄██  ▄▀▀█▀█▀█▄▄▄█▀ ▀█▀  ███▄  ▄▄█  ▄█ █▀██
+█ ▀▀█▄█▄ ▀▄█▀ ▀█ ▄ ▄▀▀▀ ▀ █▀▀▄▀█▄▀▀▀ █▀█   ▀▀█▄█▄▄▀██▀█▄▀▄▄█▀ █
+█▄█   █▄▄██▀██▀█▀██▄ █▀▄▀▄ ▀█▀▀▄██ █▀  ███▀  ██▄  ██▄▄▀  █▄▄▀▀█
+██▄█▄ █▄▀ ▄ ▄▄█ ▀█▀█▄ ▄▀▀█▄▀▀▄   ██ █▄▄ ▄ ▀▀ ▀▀▄▀█▄ █▀▀▀▀ ▄▄  █
+██▄████▄█▀  ▄ █ ▄█▄▄▄▄██ ▀▄▀ ▄▄▀▀ ▄  ▄ ▄ █▀  █▄█▄▄▀█▄▄▀  ▀▄█ ██
+██▄ █▄▄▄▄▀▄▀██▀▄▀ ▄█▄ ██  ▀█▄█ ▀ █ ██ █▀▀▄ ▀▄▀   ▄▀ ▀▄ ▄▄ ▄██ █
+█████ ▄▄▀   █▀▀█▄▄▄▀▄█▀█▀ ▀██  ▄▄▄▄█  ▀█▀▀▀ ▄▀▄█▀  ▄▄▄ ▀█▀▀▄███
+█▀▄▀▄█ ▄ ▄ ███ █ ▀ ▄▄█▀█  █▄▄▀ ▀▄  █ ▀▄█▄█   ▄  █▄▄  ▀▄▀▀ ▄▄  █
+█ █ █ ▄▄▄ ▀▄█▀▀▄▄▄ ▄█▄█▀  ▀▀▄ ▄▄▄  █▀ ▄██▀▀  ▀██▄ ▀█▄ ▄▄▄ ▄▀ ▄█
+█▀█▄▄ █▄█  ▄ ▀▄▀▀█▀█ ▀▄█ █▄██ █▄█ █▄▀▄▄█ ▀▀ ▄█ █▄▄█ ▀ █▄█  ▄▄▄█
+██ ▀█  ▄ ▄█▄ ▄▄ ▄▀▄ ▀█▄█▄ ▀▀  ▄   ▄▄▀ ▄▄▀▀▀▀▄█▀▄▄ ▀██  ▄▄▄█▄▄▀█
+█▄▀█▀ █▄█▄ █▄▄▄█▄ ▄▄▄██▀▄  █ ▀▀ ▀█▀██ █▄▀▀▀ ▄▀▄  ▄  ▄▀  ▀███ ▄█
+█▀▄▀█ ▀▄▄█▀  ▄▀ ▄▄ ▄▀▄ ▀ ▀ █▄ ▀   ▀█▄  ▄▄█▄▀▄▀▀█▄  █▄▀██ ████▀█
+██▀▄▄█▀▄▀   █ █▀▄▄▀ ▄█ ▀▄▀▄ ▄███▄▄▀▀▄██▀▀▄▀█▄▀▀▄  ███▄ ▄██▄█ ▄█
+███▄▀ ▄▄ █   ▀██▄█▀ ▀▀▀▀▄▀▄▄█▀▄ █▄█▄▄ █▄██ ▀ █▀▄▄  ▄  ██▀██ ▀ █
+██▀█▄█ ▄██▀█ ▄█▄▄ ▀ ▀ ▄█▀▄██ ▄█ ▀▄ ▄█   ▄▀███▄█  ▀█  ▀ ▄ ▀██▀ █
+██▄  ▄▄▄█▄█▄██████  ▄▄█▀█▀▄█▀▄▄  ▀██▄█▀  █▀  ▀█▄ ▄ ▄ ▀ ▄▄▄▄▄█▄█
+█▀██▀▄ ▄▄█  ▄ █ █ ▄█ ▄▀  ███ ▄▀▄▄█▄█ ████▀▄██▄█▀ ▄▀██▀▄▄▄▄▀█▄▄█
+█▄▄ ▀▄ ▄ █▀▀▄▀ ▄▀█▄▄ █▀▄▀▄▀▀▄ ▄▄▄█▀▄█ ▄▄██▀ ▄██▄▄ ▀▄▄▀▄  ▄█▄▄ █
+█▀▀ ▄ ▄▄██▀▀▄█ █▀███▀▄█ ▀██▀▄▀▄██▄▄ █▀▄ █▀██    ▄▄▀▄▄█ ▄▄▀ █ ▄█
+█▄▄▄▄██▄█▀ ▀▀  ▀██ ▄▀██▀▄▀▄█  ▄▄▄ ▄ ▄ ▀▄▄█ ▀▄█▄█  ██▄ ▄▄▄ ▀▄  █
+█ ▄▄▄▄▄ █▄  █  ███▄██  ▀▄█▀██ █▄█ ▄██▀███▄▀ ▄▀█▀█▄ ▄  █▄█ ▄█▄ █
+█ █   █ █ ███  █▄█▄▀▄█▄▀█▀▀█▄  ▄  ▄█▄▄ ██▀▀ ▄█▀█▄▄ █▄▄   ▄█▄▄▀█
+█ █▄▄▄█ █ ▀▄▄▄▄ ▄▄█▀▄█   ▄▄ ███▄▄▄▄ ▀ ██▄ ▀▀▄▄▄▄▀▄ ▄▀█ ▀ ▀▄██ █
+█▄▄▄▄▄▄▄█▄▄██▄▄▄▄▄█▄▄▄████▄████▄▄█▄██▄▄█▄███▄████▄██▄▄█▄██▄█▄▄█
+
+[2026-09-03T09:57:35.156Z] INFO connection update full: {
+  qr: 'https://wa.me/settings/linked_devices#2@XFoDRpx0tsM4pTLWd81S7YiyS2S+FwghOYkLXKWCT8uy08OpbyKg4JUPFGpiOx/VquXQMCQlHNkWd6vLUD8k+xtcKTOtZSjpTVc=,5IZUBb6QKQG+NfNHbyGKMPn53PYXjwLHdd8vblQ0JHc=,DEV4fHkQBE/hZ1H111h6W//BQ/CftM7feRK3uxNTqzw=,3kfzuVkMrFny6ET9t8tZxU3lXmD1dvyUIOUKGQlTw+M=,1'
+}
+[2026-09-03T09:57:35.156Z] INFO QR code / link (scan or open with WhatsApp Linked Devices):
+ https://wa.me/settings/linked_devices#2@XFoDRpx0tsM4pTLWd81S7YiyS2S+FwghOYkLXKWCT8uy08OpbyKg4JUPFGpiOx/VquXQMCQlHNkWd6vLUD8k+xtcKTOtZSjpTVc=,5IZUBb6QKQG+NfNHbyGKMPn53PYXjwLHdd8vblQ0JHc=,DEV4fHkQBE/hZ1H111h6W//BQ/CftM7feRK3uxNTqzw=,3kfzuVkMrFny6ET9t8tZxU3lXmD1dvyUIOUKGQlTw+M=,1
+[2026-09-03T09:57:35.163Z] INFO ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▄▀▀  ███ ▀▄ ▀█▀█▄ ▀██ ▄  █▀ ▄▄██▄█ ▀ █▀█▀██  █ ▄▄▄▄▄ █
+█ █   █ █ ▄█  ▀▄▄▀  ▄▀▄▄█▀▀▄█▄▄▀ ██▄▀ ▀▀▀▄▄  █▄▀ ▀  ▄ █ █   █ █
+█ █▄▄▄█ █▄ ▄▀    ▀▄▄▄ ▄▄███▀▄ ▄▄▄ ▀▀▄▀  ▄▀▀█ ▄ ██▀█ ▄██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀▄█▄▀ ▀ █▄▀ █ ▀ █▄█ █▄█ ▀ ▀ ▀▄█ █▄█▄█ ▀▄▀ ▀ █▄▄▄▄▄▄▄█
+█  ▄ ▀█▄▀ ▀ █ ██▄█▀▀ ▀▄▄ ▀█▄█ ▄  ▄▄█▄█▀▄█▄ ▀▀▀██▄▀████▄▀▀   ▀▄█
+█▀▄ █▀█▄▄▀▄▀▄▄▀ █ ▀▀█▀▄▄█▀▄ ▄▀███▄█████▀ ▀  ▀▀▀▀▄█▀▀▀▀▄▄▄▀▀▀███
+█ ▀▀█ ▄▄▀ ▀▄ █▄▀ █  ▄ ▀███▄████▀▀▀█▄ ▀▀▄▀▀▄▄ ▀▀█▄▄▀  ██▄▄▀█▄█▀█
+█▀ ▀ █▀▄▀▄▄▄▀▀ █▀  █ ▀ ▀▄███ █▀▄█▀▀▀ ▄ █▀▀▀▀ ██▄█▄▀██▄█▄ ▄█▄▀▀█
+█▀▀▀█  ▄█  ▀▄██▄▄▀▄▀▄▄▄  ▀▄▄ █▄██▄█▀ █▄▄ ▀ █▄▄  ▀█▀▄▀  █▄▄▀  ▄█
+█ ▄▀ ▀█▄ █  ▀▄ ▄███▀▄▄ ▄█▀▄█▀▄▄█ █▀ █     ██ ▀█ █▀▄▄▀▀██▀▄ ▄▄▄█
+██ █▄▀ ▄▄▀▀▀█ ▄▄█▄▄█▀▄▄▄  █▀▀▀▀█  █▀█▀▄█▀▄▀▀██▀▄▄█ ███▀▀▀▀█▄ ▄█
+█  ▀  █▄  ▀█▀ █ ▄▄█ ██ ▀▀██▄▀▀▀▄ ▄▀▀██ ▀▄ ▀▄▀▀█▄▀▀█▀▄ ▀▀ ▀▀▀▄██
+█▄▄▄▀  ▄▀▄▄ ▀█   ▄ █▄▀███▄▀▀ █▄▀█▀ █ ▄▀▀█▀█▄▄█ ██▄   ▄▄███▀▄  █
+█ █▀█▄ ▄▀ █▄█▄▀█▀ █ ██ ▄ ▀███   █   ▀ ██▀ ▄▀▀▄▀▀██▀▄▀ ▄   ▄▄ ▀█
+██▀█  ▄▄▄ ▀▄▄▄██ ▀██▀█ █▀██ ▀ ▄▄▄    █ ▄▄█▀▄▄  ▀██▄▄  ▄▄▄  ▄▀▀█
+███▄  █▄█ ▄█▄█▄█ ▀█▀ █ █▄█▄█▀ █▄█ ▀▄█ ▄▀█ ▄▄▄▀▄█▀ ▄█▄ █▄█ ▄▄  █
+█▄▀▀▄  ▄ ▄▀▀▄▄█ █ ▄▀ ██▄▄▀█▀▀ ▄   ██▀▀█▄  ▀ ██ █▄▀ █▄ ▄▄▄▄▄█▄ █
+█ ▀▄▄▄▄▄█▀█▀▄▀█ ▀▄█▀ ▄▀███▄▄██ ██▄▄▀▄███▄█ █▄▄▀▄▀▀▄▀▀█▀▀█▄ ▀▀▀█
+█▄▀█▀▄█▄▀ █ ██▄  ▄▄ ▀▀ ▀▄█ ▀ ▀█▄ ▄██▄▄▀  █ █ ▀▀▄ ▄ ▀ ▀▀▀ ▀▀████
+█▀█▄█▀▀▄  ▀▀ ██ ██▀▀█ ▀ ▄ █ ██   █ ▄ ▀█  █▀▄█▀ ▄ ▀▄█▄█ █▄██▄ ██
+█ ▀ ▄ █▄▄▄█▄▀▄▀▄▀▀ ██ ▄██▄ ██▄ ▀ █▀ ██▀█ ▀▀▄▄▄▄ ██▄██▄▄ █▄▄▄ ██
+█▀▀█▀██▄█▀ ▄▄ █   ▄▀▀▄ ██ █ ▄█ ▄▄ █ ▀▄ ▄▄█▀██ ▀ ▄▀█ ▄▀▄ █████▄█
+█▄█▀██▄▄▄▄█▄█▄▄██▄ ▀█▄▄ ▄  ▀▀█ ▀▄▀█▄▄▄   ▄ ▀▀▀▄█ █ █▀  ██▄▄████
+█▄▀▀▄ ▀▄ ▄▀▀██▀▀▄▄█ ▄█▄▄█▄█ █  ▀ ▄  ▀ ▀▄▀▄▄ ▀█ █▀▀█▄ ██▀ █▄▀█▀█
+█ ▄▄█▄▄▄█▀██ █  ██   ▀█▄█ ▀█    ▄▀█▄▀▄▄ ▀██▄▄▀▀▄ ▄▀  ▄██  ▀▄ ▄█
+█▀▀ ▄ ▄▄    ▀▀▄  ▄█▄ ▄▀ ▀▄▄▀█ ▄▄▄▄█▀▀ ▀▄▄ █▄▀ ██▄█ ▄▄▄▄▀█▀▀▄ ██
+█▄▄▄▄██▄█▀██▀▀▀▄ ▀▀▀▀█ ▀█▄ ▄▀ ▄▄▄ ▀▄████▀▀▀▄▄▄▀ ▀█▀▄▀ ▄▄▄ ▄ ███
+█ ▄▄▄▄▄ ██▄ █  ▀▀█ ▀▄ ▄▀ ▀▀▀  █▄█ ▄█ ██▀▀▄█▄██▀ ▀   ▄ █▄█  █▄ █
+█ █   █ █▀▄▄█▀▀▄█▄▄ ███ █  █▀  ▄  █▄▄█▀█▄ ▀▀██ ▄▄█▀██▄   ▄ █▄▀█
+█ █▄▄▄█ █ ▄▄█▀ ▀▀  ▄ ▄█▄▀▀█▄▀▄ █ ▀   █▀▄█    █▀ ▄█▄█▄▀▀▄▄ █▀▄██
+█▄▄▄▄▄▄▄█▄▄▄█▄▄▄▄▄▄▄▄▄██▄▄▄████▄▄█▄██▄▄████▄▄███▄▄█▄▄▄█▄███▄▄▄█
+
+[2026-09-03T09:57:55.175Z] INFO connection update full: {
+  qr: 'https://wa.me/settings/linked_devices#2@zLDTeA+oglOILcXZTTi60pNy42sdOkf+191On3ywtN3x2MRBVIDOQbATpAYujYHYdBGztf02Zrqbi37GvUC1VbzHC31sY7n9wI8=,5IZUBb6QKQG+NfNHbyGKMPn53PYXjwLHdd8vblQ0JHc=,DEV4fHkQBE/hZ1H111h6W//BQ/CftM7feRK3uxNTqzw=,3kfzuVkMrFny6ET9t8tZxU3lXmD1dvyUIOUKGQlTw+M=,1'
+}
+[2026-09-03T09:57:55.176Z] INFO QR code / link (scan or open with WhatsApp Linked Devices):
+ https://wa.me/settings/linked_devices#2@zLDTeA+oglOILcXZTTi60pNy42sdOkf+191On3ywtN3x2MRBVIDOQbATpAYujYHYdBGztf02Zrqbi37GvUC1VbzHC31sY7n9wI8=,5IZUBb6QKQG+NfNHbyGKMPn53PYXjwLHdd8vblQ0JHc=,DEV4fHkQBE/hZ1H111h6W//BQ/CftM7feRK3uxNTqzw=,3kfzuVkMrFny6ET9t8tZxU3lXmD1dvyUIOUKGQlTw+M=,1
+[2026-09-03T09:57:55.182Z] INFO ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▄ ▀  █▀█ ▀▄ ▀▀▀█▄  ▀██ ▀ █▀ ▄▄██▄█ ▀ █▀█▀██  █ ▄▄▄▄▄ █
+█ █   █ █ ▄█▄▄▀▄▄▀  ▄▀███▀▀▄██▀█▀▄█▄▄ ▄▀▀▄▄ ▀▄▀▀ ▀  ▄ █ █   █ █
+█ █▄▄▄█ █▄ ▄▀▄ ▀ ▀▄▄▄ ▄▄███▀▄ ▄▄▄ ▀▀█▄  ▄▀▀█▀▀ ▀█▀█ ▄██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀▄█▄▀ ▀ █▄█▄█ ▀ █▄█ █▄█ ▀▄▀▄▀▄█ █▄█▄█ ▀▄▀ ▀ █▄▄▄▄▄▄▄█
+█▄ ▄▄▀█▄▀ ▀ █ ██▄█▀▀ ▀▄▄ ▀█▄▀ ▄  ▄█▄▄▀▀▄█▄ ▀▀▀██▄▀████▄▀▀ ▄ ▀▄█
+█▀▄ █▀█▄▄▀█▄▄▄▀ █ █▀█▀▄▄█▀▀▀▄▀███▄▄▀█▄█▀▄█ ▄▀▀▀▀▄▀▀█▀▀▄▄▄▀█ ███
+█ ▀█▀ ▄▄▄█▄▄ █▄▀█▄▀ ▄ ▀██▄ ▀███▀▀▀▀█ ▀▀▄▀██▄ ▀▀█▄▄▀  ▄██▄▀█▄█▀█
+█▀ ▀▀██▄██▄▄▀▀ ██▀ █ ▀ ▀█▀▀▀ █▀▄█▀   ▄ █▀ ▀  ██▄▄█ █ ▄▄█ ▄█▄▀▀█
+█▀▀▀█▄ ▄██▄██ █▄▄▀▄▀▄▄▄  ▀ ▄ █ ▀█ █▀ █▄▄ ▀ █▄▄  ▀█▀▄▀  █▄▄▀  ▄█
+█▀ ▀ ██▄ █  ▀▄▄████▀▄▄ ▄█▀▄██▄█▄▀█▀ ▀▄▄▄  ██ ██ █▀▄▄▀▀███  ▄▄▄█
+██▄█▄ █▄▄▀▀▀█▄███▄▄█ ▄█   █▀█▀█▀▄▀█▀ ▀██▀▄▀▀▀▀▄▄▄█ ███▀▀█▀█▄▄ █
+█ ▄▀ ▀█▄  ▀█▀ ▄█▄▄█ ▄▀ ▀▀██▄ ▀▀█▄ ▀▀██ ▀▄ ▀▄  ██▀▀█▀▄ ▀▀▀ ▀▀███
+█▄ ▄▀  ▄▀▄▄ ▀██▄ ▄ █▄▀███▄▀▀█▄▄▀▄  █  ▀▀█▀█▄▄█ ██▄   ▄▄████▄  █
+█ ██ ▄ ▄█ ▀▄█▄▀█▀ ▀▄██ ▄ ▀███   █ ██▀ ███  ▀▀▄▀▀▀██▄▀     ▄█ ▀█
+██▀█  ▄▄▄ ██▄▄██▀  ▀▀█ █▀▄▄▄▀ ▄▄▄ ▀  █ ▄▄█▄▄▄  ▀▀█▄▄▄ ▄▄▄  ▄▀▀█
+███ ▀ █▄█ ▀▄▄█▄█▀ █▀ █ █▀▄▀ ▀ █▄█  ▄█ ▄▀▄▀▄█▄▀▄█▀▀▄██ █▄█ ▄▄  █
+█▄▀▀▄  ▄ ▄▄ ▄▄█ █ ▄▀ ██▄▄▀ ▀▀ ▄   ██▀▀█▄  ▀ ██ █▄▀ █▄ ▄▄▄▄▄█▄ █
+█▄█▄▄▄▄▄▄▀█▀██▄ ▀▄█▀ ▄▄▀██▄▄██ ██▄▄▀ █▀█▄█ █ ▄█▄▀▀▄▀ ████▄ ▀▀▀█
+██▄█▀ ▄▄ ▀█ █ ▀▄ ▄▄ ▀▀ ▀▄█ ▀ ▀█▄ ▄██  ▄  █ █▄█ █ ▄ ▀ ▀▀▀ ▀▀██▀█
+█▄▄▄█▄▄▄█▀▀▀▄█▄ ██▀▀ █▀ ▄ █ █▀ ▄ █▄▄ ██  █▀▄▄▀ ▄ ▀▄█▄█ █▄██▄ ██
+██▄ ▄▄▀▄▄▄█▄▀▄▄▄▀▀ ██ ▄██▄ █▀███▀  ▀██▀█ ▀▀▄▄▄▄ ██▄██▄▄ ▄▄▄▄▀██
+█▀▀▀██▀▄█▀▀▀▄ █   █▄▀▄ ██ ▄▀▄▀█ ▀ ▄█▀▄ ▄ ▀▀██ ▀ ▄█▀ ▄▀▄  █▄██▄█
+█▄█▄▄█▄▄▄▄▄ █▄▄██▄▀██▄▄ ▄ █▀ █ ▀█ ██▄▄    █▀▀▀▄█ ▀ █▀  ██▄▄████
+█▄▀ ▄ ▀▄ ▄▀▀██▀▀▄▀█ ▄█▄▄ ▄▀██  ▀ ▄  ▀ ▀▄▀▄█ ▀█ █ ▀▄█▄██▀ █▄▀█▀█
+█ ▄▄█▄▄▄▄ ▄▄ ▀  ██   ▀█▄█ ▀█    ▄▀█▄▀▄▄ ▀██▄▄▀▀▄ ▄▀ ▄▀██  ▀▄ ▄█
+█▀▀ ▄ ▄▄██  █▀▄▄ ▄█▄ ▄▀ ▀▄▄▀█ ▄▄▄▄█▀▀▄▀▄▄ █▄█▄▀▀▄█ ▄█▄▄▀█▀▀▄ ██
+█▄▄▄▄██▄█ ██▀█▀  ▀▀▀██ ██▄ ▄▀ ▄▄▄ ▀▄▀▀▄█▀▀▀▄ ▄ ▀▀█▀▄▀ ▄▄▄ ▄ ▀▀█
+█ ▄▄▄▄▄ ██▄ ▄▄▀▄▀█ ▀▄ ▄▀ ▀▀▀█ █▄█ ▄█ ▄█▀▀▄█▄▄█  ▀   ▄ █▄█  █▄▄█
+█ █   █ █▀▄▄█▀▀ █▄▄ ███ █  ██▄ ▄   ▄▄█▀█▄ ▀▀██ ▄▄█▀██▄   ▄ ██ █
+█ █▄▄▄█ █   █▀ ▀▀  ▄ ▄█▄▀▀███ ▄▀ ██▄ █▀▄▀ ▄▄ █▀ ▄█ █▄▀▀▄▄ ▀ ▄██
+█▄▄▄▄▄▄▄█▄▄██▄▄▄█▄█▄▄▄██▄█████▄▄▄█▄▄█▄▄█████▄███▄▄██▄▄█▄██▄█▄▄█
+
+[2026-09-03T09:58:02.128Z] INFO Webserver listening on port 3000
+[2026-09-03T09:58:02.878Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T09:58:02.880Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T09:58:02.880Z] INFO connection update: connecting
+[2026-09-03T09:58:05.930Z] INFO WhatsApp pairing code: CSV7WGVJ
+[2026-09-03T09:58:05.930Z] INFO On your phone: WhatsApp > Linked devices > Link a device > Link with phone number.
+[2026-09-03T09:58:08.234Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Connection Failure
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: { reason: '401', location: 'odn' },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 401,
+        payload: {
+          statusCode: 401,
+          error: 'Unauthorized',
+          message: 'Connection Failure'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T09:58:08.234Z
+  }
+}
+[2026-09-03T09:58:08.235Z] INFO connection update: close
+[2026-09-03T09:58:08.235Z] INFO connection closed Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T09:58:08.236Z] INFO lastDisconnect.error full: Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { reason: '401', location: 'odn' },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 401,
+    payload: {
+      statusCode: 401,
+      error: 'Unauthorized',
+      message: 'Connection Failure'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T09:58:08.236Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 401,
+  error: 'Unauthorized',
+  message: 'Connection Failure'
+}
+[2026-09-03T09:58:08.236Z] INFO reconnecting in 2350ms (attempt 1/5)
+[2026-09-03T09:58:11.160Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T09:58:11.160Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T09:58:11.160Z] INFO connection update: connecting
+[2026-09-03T09:58:14.230Z] INFO WhatsApp pairing code: ZP3HEPKJ
+[2026-09-03T09:58:14.230Z] INFO On your phone: WhatsApp > Linked devices > Link a device > Link with phone number.
+[2026-09-03T09:58:16.493Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Connection Failure
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: { reason: '401', location: 'rva' },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 401,
+        payload: {
+          statusCode: 401,
+          error: 'Unauthorized',
+          message: 'Connection Failure'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T09:58:16.493Z
+  }
+}
+[2026-09-03T09:58:16.494Z] INFO connection update: close
+[2026-09-03T09:58:16.494Z] INFO connection closed Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T09:58:16.494Z] INFO lastDisconnect.error full: Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { reason: '401', location: 'rva' },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 401,
+    payload: {
+      statusCode: 401,
+      error: 'Unauthorized',
+      message: 'Connection Failure'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T09:58:16.494Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 401,
+  error: 'Unauthorized',
+  message: 'Connection Failure'
+}
+[2026-09-03T09:58:16.494Z] INFO reconnecting in 4323ms (attempt 2/5)
+[2026-09-03T09:58:21.363Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T09:58:21.364Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T09:58:21.364Z] INFO connection update: connecting
+[2026-09-03T09:58:23.465Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Connection Failure
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: { reason: '401', location: 'rva' },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 401,
+        payload: {
+          statusCode: 401,
+          error: 'Unauthorized',
+          message: 'Connection Failure'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T09:58:23.465Z
+  }
+}
+[2026-09-03T09:58:23.465Z] INFO connection update: close
+[2026-09-03T09:58:23.465Z] INFO connection closed Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T09:58:23.466Z] INFO lastDisconnect.error full: Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { reason: '401', location: 'rva' },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 401,
+    payload: {
+      statusCode: 401,
+      error: 'Unauthorized',
+      message: 'Connection Failure'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T09:58:23.466Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 401,
+  error: 'Unauthorized',
+  message: 'Connection Failure'
+}
+[2026-09-03T09:58:23.466Z] INFO reconnecting in 8054ms (attempt 3/5)
+[2026-09-03T09:58:24.436Z] ERROR Failed to request WhatsApp pairing code: Error: Connection Closed
+    at sendRawMessage (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:60:19)
+    at sendNode (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:79:16)
+    at Object.requestPairingCode (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:607:15)
+    at async Timeout._onTimeout (C:\Users\shadr.JARVIS\Desktop\DotVV\index.js:96:29)
+[2026-09-03T09:58:36.573Z] INFO Webserver listening on port 3000
+[2026-09-03T09:58:37.324Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T09:58:37.326Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T09:58:37.326Z] INFO connection update: connecting
+[2026-09-03T09:58:39.739Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Connection Failure
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: { reason: '401', location: 'cln' },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 401,
+        payload: {
+          statusCode: 401,
+          error: 'Unauthorized',
+          message: 'Connection Failure'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T09:58:39.739Z
+  }
+}
+[2026-09-03T09:58:39.739Z] INFO connection update: close
+[2026-09-03T09:58:39.739Z] INFO connection closed Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T09:58:39.740Z] INFO lastDisconnect.error full: Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { reason: '401', location: 'cln' },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 401,
+    payload: {
+      statusCode: 401,
+      error: 'Unauthorized',
+      message: 'Connection Failure'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T09:58:39.740Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 401,
+  error: 'Unauthorized',
+  message: 'Connection Failure'
+}
+[2026-09-03T09:58:39.740Z] INFO reconnecting in 2029ms (attempt 1/5)
+[2026-09-03T09:58:40.367Z] ERROR Failed to request WhatsApp pairing code: Error: Connection Closed
+    at sendRawMessage (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:60:19)
+    at sendNode (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:79:16)
+    at Object.requestPairingCode (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:607:15)
+    at async Timeout._onTimeout (C:\Users\shadr.JARVIS\Desktop\DotVV\index.js:96:29)
+[2026-09-03T09:58:42.318Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T09:58:42.318Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T09:58:42.319Z] INFO connection update: connecting
+[2026-09-03T09:58:45.402Z] INFO WhatsApp pairing code: MJL16PB2
+[2026-09-03T09:58:45.402Z] INFO On your phone: WhatsApp > Linked devices > Link a device > Link with phone number.
+[2026-09-03T09:58:46.901Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Connection Failure
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: { reason: '401', location: 'vll' },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 401,
+        payload: {
+          statusCode: 401,
+          error: 'Unauthorized',
+          message: 'Connection Failure'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T09:58:46.901Z
+  }
+}
+[2026-09-03T09:58:46.902Z] INFO connection update: close
+[2026-09-03T09:58:46.902Z] INFO connection closed Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T09:58:46.902Z] INFO lastDisconnect.error full: Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { reason: '401', location: 'vll' },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 401,
+    payload: {
+      statusCode: 401,
+      error: 'Unauthorized',
+      message: 'Connection Failure'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T09:58:46.903Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 401,
+  error: 'Unauthorized',
+  message: 'Connection Failure'
+}
+[2026-09-03T09:58:46.903Z] INFO reconnecting in 4074ms (attempt 2/5)
+[2026-09-03T09:58:51.516Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T09:58:51.517Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T09:58:51.517Z] INFO connection update: connecting
+[2026-09-03T09:58:53.286Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Connection Failure
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: { reason: '401', location: 'atn' },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 401,
+        payload: {
+          statusCode: 401,
+          error: 'Unauthorized',
+          message: 'Connection Failure'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T09:58:53.286Z
+  }
+}
+[2026-09-03T09:58:53.286Z] INFO connection update: close
+[2026-09-03T09:58:53.286Z] INFO connection closed Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T09:58:53.286Z] INFO lastDisconnect.error full: Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { reason: '401', location: 'atn' },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 401,
+    payload: {
+      statusCode: 401,
+      error: 'Unauthorized',
+      message: 'Connection Failure'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T09:58:53.287Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 401,
+  error: 'Unauthorized',
+  message: 'Connection Failure'
+}
+[2026-09-03T09:58:53.287Z] INFO reconnecting in 8621ms (attempt 3/5)
+[2026-09-03T09:58:54.580Z] ERROR Failed to request WhatsApp pairing code: Error: Connection Closed
+    at sendRawMessage (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:60:19)
+    at sendNode (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:79:16)
+    at Object.requestPairingCode (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:607:15)
+    at async Timeout._onTimeout (C:\Users\shadr.JARVIS\Desktop\DotVV\index.js:96:29)
+[2026-09-03T09:59:02.556Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T09:59:02.557Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T09:59:02.557Z] INFO connection update: connecting
+[2026-09-03T09:59:05.100Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Connection Failure
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: { reason: '401', location: 'cco' },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 401,
+        payload: {
+          statusCode: 401,
+          error: 'Unauthorized',
+          message: 'Connection Failure'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T09:59:05.100Z
+  }
+}
+[2026-09-03T09:59:05.100Z] INFO connection update: close
+[2026-09-03T09:59:05.100Z] INFO connection closed Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T09:59:05.101Z] INFO lastDisconnect.error full: Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { reason: '401', location: 'cco' },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 401,
+    payload: {
+      statusCode: 401,
+      error: 'Unauthorized',
+      message: 'Connection Failure'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T09:59:05.101Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 401,
+  error: 'Unauthorized',
+  message: 'Connection Failure'
+}
+[2026-09-03T09:59:05.101Z] INFO reconnecting in 16929ms (attempt 4/5)
+[2026-09-03T09:59:05.623Z] ERROR Failed to request WhatsApp pairing code: Error: Connection Closed
+    at sendRawMessage (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:60:19)
+    at sendNode (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:79:16)
+    at Object.requestPairingCode (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:607:15)
+    at async Timeout._onTimeout (C:\Users\shadr.JARVIS\Desktop\DotVV\index.js:96:29)
+[2026-09-03T09:59:22.553Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T09:59:22.553Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T09:59:22.553Z] INFO connection update: connecting
+[2026-09-03T09:59:25.627Z] INFO WhatsApp pairing code: 99QSRAE9
+[2026-09-03T09:59:25.628Z] INFO On your phone: WhatsApp > Linked devices > Link a device > Link with phone number.
+[2026-09-03T09:59:28.189Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Connection Failure
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: { reason: '401', location: 'vll' },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 401,
+        payload: {
+          statusCode: 401,
+          error: 'Unauthorized',
+          message: 'Connection Failure'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T09:59:28.189Z
+  }
+}
+[2026-09-03T09:59:28.189Z] INFO connection update: close
+[2026-09-03T09:59:28.189Z] INFO connection closed Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T09:59:28.190Z] INFO lastDisconnect.error full: Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { reason: '401', location: 'vll' },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 401,
+    payload: {
+      statusCode: 401,
+      error: 'Unauthorized',
+      message: 'Connection Failure'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T09:59:28.190Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 401,
+  error: 'Unauthorized',
+  message: 'Connection Failure'
+}
+[2026-09-03T09:59:28.190Z] INFO reconnecting in 30945ms (attempt 5/5)
+[2026-09-03T09:59:59.678Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T09:59:59.678Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T09:59:59.678Z] INFO connection update: connecting
+[2026-09-03T10:00:02.756Z] INFO WhatsApp pairing code: 5MMVDVYL
+[2026-09-03T10:00:02.756Z] INFO On your phone: WhatsApp > Linked devices > Link a device > Link with phone number.
+[2026-09-03T10:00:04.971Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Connection Failure
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: { reason: '401', location: 'atn' },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 401,
+        payload: {
+          statusCode: 401,
+          error: 'Unauthorized',
+          message: 'Connection Failure'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T10:00:04.971Z
+  }
+}
+[2026-09-03T10:00:04.971Z] INFO connection update: close
+[2026-09-03T10:00:04.971Z] INFO connection closed Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T10:00:04.972Z] INFO lastDisconnect.error full: Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { reason: '401', location: 'atn' },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 401,
+    payload: {
+      statusCode: 401,
+      error: 'Unauthorized',
+      message: 'Connection Failure'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T10:00:04.972Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 401,
+  error: 'Unauthorized',
+  message: 'Connection Failure'
+}
+[2026-09-03T10:00:04.972Z] INFO Max reconnect attempts reached — give up. Check network or try again later.
+[2026-09-03T10:04:28.372Z] INFO Webserver listening on port 3000
+[2026-09-03T10:04:29.151Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T10:04:29.153Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T10:04:29.153Z] INFO connection update: connecting
+[2026-09-03T10:04:32.197Z] INFO ================ PAIRING CODE: PKH2P9WY ================
+[2026-09-03T10:04:32.197Z] INFO WhatsApp: Settings > Linked devices > Link a device > Link with phone number.
+[2026-09-03T10:04:33.700Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Connection Failure
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: { reason: '401', location: 'cco' },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 401,
+        payload: {
+          statusCode: 401,
+          error: 'Unauthorized',
+          message: 'Connection Failure'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T10:04:33.700Z
+  }
+}
+[2026-09-03T10:04:33.700Z] INFO connection update: close
+[2026-09-03T10:04:33.700Z] INFO connection closed Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T10:04:33.701Z] INFO lastDisconnect.error full: Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { reason: '401', location: 'cco' },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 401,
+    payload: {
+      statusCode: 401,
+      error: 'Unauthorized',
+      message: 'Connection Failure'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T10:04:33.701Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 401,
+  error: 'Unauthorized',
+  message: 'Connection Failure'
+}
+[2026-09-03T10:04:33.701Z] INFO reconnecting in 2893ms (attempt 1/5)
+[2026-09-03T10:04:37.108Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T10:04:37.109Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T10:04:37.109Z] INFO connection update: connecting
+[2026-09-03T10:04:40.173Z] INFO ================ PAIRING CODE: 9DZCRNKZ ================
+[2026-09-03T10:04:40.173Z] INFO WhatsApp: Settings > Linked devices > Link a device > Link with phone number.
+[2026-09-03T10:04:41.288Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Connection Failure
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: { reason: '401', location: 'rva' },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 401,
+        payload: {
+          statusCode: 401,
+          error: 'Unauthorized',
+          message: 'Connection Failure'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T10:04:41.287Z
+  }
+}
+[2026-09-03T10:04:41.288Z] INFO connection update: close
+[2026-09-03T10:04:41.288Z] INFO connection closed Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T10:04:41.289Z] INFO lastDisconnect.error full: Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { reason: '401', location: 'rva' },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 401,
+    payload: {
+      statusCode: 401,
+      error: 'Unauthorized',
+      message: 'Connection Failure'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T10:04:41.289Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 401,
+  error: 'Unauthorized',
+  message: 'Connection Failure'
+}
+[2026-09-03T10:04:41.290Z] INFO reconnecting in 4879ms (attempt 2/5)
+[2026-09-03T10:04:46.855Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T10:04:46.856Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T10:04:46.856Z] INFO connection update: connecting
+[2026-09-03T10:04:49.934Z] INFO ================ PAIRING CODE: 3YTGTJFX ================
+[2026-09-03T10:04:49.934Z] INFO WhatsApp: Settings > Linked devices > Link a device > Link with phone number.
+[2026-09-03T10:04:51.393Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Connection Failure
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: { reason: '401', location: 'vll' },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 401,
+        payload: {
+          statusCode: 401,
+          error: 'Unauthorized',
+          message: 'Connection Failure'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T10:04:51.393Z
+  }
+}
+[2026-09-03T10:04:51.394Z] INFO connection update: close
+[2026-09-03T10:04:51.394Z] INFO connection closed Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T10:04:51.394Z] INFO lastDisconnect.error full: Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { reason: '401', location: 'vll' },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 401,
+    payload: {
+      statusCode: 401,
+      error: 'Unauthorized',
+      message: 'Connection Failure'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T10:04:51.395Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 401,
+  error: 'Unauthorized',
+  message: 'Connection Failure'
+}
+[2026-09-03T10:04:51.395Z] INFO reconnecting in 8924ms (attempt 3/5)
+[2026-09-03T10:05:00.844Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T10:05:00.844Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T10:05:00.844Z] INFO connection update: connecting
+[2026-09-03T10:05:03.908Z] INFO ================ PAIRING CODE: R3NK6EYV ================
+[2026-09-03T10:05:03.908Z] INFO WhatsApp: Settings > Linked devices > Link a device > Link with phone number.
+[2026-09-03T10:05:05.768Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Connection Failure
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: { reason: '401', location: 'vll' },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 401,
+        payload: {
+          statusCode: 401,
+          error: 'Unauthorized',
+          message: 'Connection Failure'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T10:05:05.768Z
+  }
+}
+[2026-09-03T10:05:05.768Z] INFO connection update: close
+[2026-09-03T10:05:05.769Z] INFO connection closed Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T10:05:05.769Z] INFO lastDisconnect.error full: Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { reason: '401', location: 'vll' },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 401,
+    payload: {
+      statusCode: 401,
+      error: 'Unauthorized',
+      message: 'Connection Failure'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T10:05:05.769Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 401,
+  error: 'Unauthorized',
+  message: 'Connection Failure'
+}
+[2026-09-03T10:05:05.769Z] INFO reconnecting in 16786ms (attempt 4/5)
+[2026-09-03T10:05:23.081Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T10:05:23.082Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T10:05:23.082Z] INFO connection update: connecting
+[2026-09-03T10:05:24.610Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Connection Failure
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: { reason: '401', location: 'cln' },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 401,
+        payload: {
+          statusCode: 401,
+          error: 'Unauthorized',
+          message: 'Connection Failure'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T10:05:24.610Z
+  }
+}
+[2026-09-03T10:05:24.610Z] INFO connection update: close
+[2026-09-03T10:05:24.611Z] INFO connection closed Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T10:05:24.611Z] INFO lastDisconnect.error full: Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { reason: '401', location: 'cln' },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 401,
+    payload: {
+      statusCode: 401,
+      error: 'Unauthorized',
+      message: 'Connection Failure'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T10:05:24.611Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 401,
+  error: 'Unauthorized',
+  message: 'Connection Failure'
+}
+[2026-09-03T10:05:24.611Z] INFO reconnecting in 30510ms (attempt 5/5)
+[2026-09-03T10:05:26.155Z] ERROR Failed to request WhatsApp pairing code: Error: Connection Closed
+    at sendRawMessage (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:60:19)
+    at sendNode (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:79:16)
+    at Object.requestPairingCode (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:607:15)
+    at async Timeout._onTimeout (C:\Users\shadr.JARVIS\Desktop\DotVV\index.js:96:29)
+[2026-09-03T10:05:55.664Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T10:05:55.664Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T10:05:55.664Z] INFO connection update: connecting
+[2026-09-03T10:05:58.735Z] INFO ================ PAIRING CODE: DR2FQJ8F ================
+[2026-09-03T10:05:58.735Z] INFO WhatsApp: Settings > Linked devices > Link a device > Link with phone number.
+[2026-09-03T10:05:59.134Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Connection Failure
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: { reason: '401', location: 'frc' },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 401,
+        payload: {
+          statusCode: 401,
+          error: 'Unauthorized',
+          message: 'Connection Failure'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T10:05:59.134Z
+  }
+}
+[2026-09-03T10:05:59.134Z] INFO connection update: close
+[2026-09-03T10:05:59.134Z] INFO connection closed Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T10:05:59.135Z] INFO lastDisconnect.error full: Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { reason: '401', location: 'frc' },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 401,
+    payload: {
+      statusCode: 401,
+      error: 'Unauthorized',
+      message: 'Connection Failure'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T10:05:59.135Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 401,
+  error: 'Unauthorized',
+  message: 'Connection Failure'
+}
+[2026-09-03T10:05:59.135Z] INFO Max reconnect attempts reached — give up. Check network or try again later.
+[2026-09-03T10:11:15.065Z] INFO Webserver listening on port 3000
+[2026-09-03T10:11:15.790Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T10:11:15.793Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T10:11:15.793Z] INFO connection update: connecting
+[2026-09-03T10:11:17.221Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Connection Failure
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: { reason: '401', location: 'atn' },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 401,
+        payload: {
+          statusCode: 401,
+          error: 'Unauthorized',
+          message: 'Connection Failure'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T10:11:17.220Z
+  }
+}
+[2026-09-03T10:11:17.221Z] INFO connection update: close
+[2026-09-03T10:11:17.221Z] INFO connection closed Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T10:11:17.222Z] INFO lastDisconnect.error full: Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { reason: '401', location: 'atn' },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 401,
+    payload: {
+      statusCode: 401,
+      error: 'Unauthorized',
+      message: 'Connection Failure'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T10:11:17.222Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 401,
+  error: 'Unauthorized',
+  message: 'Connection Failure'
+}
+[2026-09-03T10:11:17.222Z] INFO reconnecting in 2519ms (attempt 1/5)
+[2026-09-03T10:11:18.842Z] ERROR Failed to request WhatsApp pairing code: Error: Connection Closed
+    at sendRawMessage (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:60:19)
+    at sendNode (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:79:16)
+    at Object.requestPairingCode (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:607:15)
+    at async Timeout._onTimeout (C:\Users\shadr.JARVIS\Desktop\DotVV\index.js:96:29)
+[2026-09-03T10:11:20.388Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T10:11:20.388Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T10:11:20.389Z] INFO connection update: connecting
+[2026-09-03T10:11:23.459Z] INFO ================ PAIRING CODE: 4BJKCZWE ================
+[2026-09-03T10:11:23.459Z] INFO WhatsApp: Settings > Linked devices > Link a device > Link with phone number.
+[2026-09-03T10:11:23.928Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Connection Failure
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: { reason: '401', location: 'odn' },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 401,
+        payload: {
+          statusCode: 401,
+          error: 'Unauthorized',
+          message: 'Connection Failure'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T10:11:23.928Z
+  }
+}
+[2026-09-03T10:11:23.929Z] INFO connection update: close
+[2026-09-03T10:11:23.929Z] INFO connection closed Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T10:11:23.929Z] INFO lastDisconnect.error full: Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { reason: '401', location: 'odn' },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 401,
+    payload: {
+      statusCode: 401,
+      error: 'Unauthorized',
+      message: 'Connection Failure'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T10:11:23.929Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 401,
+  error: 'Unauthorized',
+  message: 'Connection Failure'
+}
+[2026-09-03T10:11:23.930Z] INFO reconnecting in 4901ms (attempt 2/5)
+[2026-09-03T10:11:29.361Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T10:11:29.363Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T10:11:29.363Z] INFO connection update: connecting
+[2026-09-03T10:11:31.136Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Connection Failure
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: { reason: '401', location: 'rva' },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 401,
+        payload: {
+          statusCode: 401,
+          error: 'Unauthorized',
+          message: 'Connection Failure'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T10:11:31.135Z
+  }
+}
+[2026-09-03T10:11:31.136Z] INFO connection update: close
+[2026-09-03T10:11:31.136Z] INFO connection closed Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T10:11:31.136Z] INFO lastDisconnect.error full: Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { reason: '401', location: 'rva' },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 401,
+    payload: {
+      statusCode: 401,
+      error: 'Unauthorized',
+      message: 'Connection Failure'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T10:11:31.136Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 401,
+  error: 'Unauthorized',
+  message: 'Connection Failure'
+}
+[2026-09-03T10:11:31.137Z] INFO reconnecting in 8714ms (attempt 3/5)
+[2026-09-03T10:11:32.436Z] ERROR Failed to request WhatsApp pairing code: Error: Connection Closed
+    at sendRawMessage (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:60:19)
+    at sendNode (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:79:16)
+    at Object.requestPairingCode (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:607:15)
+    at async Timeout._onTimeout (C:\Users\shadr.JARVIS\Desktop\DotVV\index.js:96:29)
+[2026-09-03T10:11:40.543Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T10:11:40.544Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T10:11:40.544Z] INFO connection update: connecting
+[2026-09-03T10:11:42.966Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Connection Failure
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: { reason: '401', location: 'vll' },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 401,
+        payload: {
+          statusCode: 401,
+          error: 'Unauthorized',
+          message: 'Connection Failure'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T10:11:42.966Z
+  }
+}
+[2026-09-03T10:11:42.967Z] INFO connection update: close
+[2026-09-03T10:11:42.967Z] INFO connection closed Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T10:11:42.967Z] INFO lastDisconnect.error full: Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { reason: '401', location: 'vll' },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 401,
+    payload: {
+      statusCode: 401,
+      error: 'Unauthorized',
+      message: 'Connection Failure'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T10:11:42.968Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 401,
+  error: 'Unauthorized',
+  message: 'Connection Failure'
+}
+[2026-09-03T10:11:42.968Z] INFO reconnecting in 16395ms (attempt 4/5)
+[2026-09-03T10:11:43.620Z] ERROR Failed to request WhatsApp pairing code: Error: Connection Closed
+    at sendRawMessage (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:60:19)
+    at sendNode (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:79:16)
+    at Object.requestPairingCode (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:607:15)
+    at async Timeout._onTimeout (C:\Users\shadr.JARVIS\Desktop\DotVV\index.js:96:29)
+[2026-09-03T10:11:59.874Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T10:11:59.874Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T10:11:59.875Z] INFO connection update: connecting
+[2026-09-03T10:12:01.334Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Connection Failure
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: { reason: '401', location: 'cln' },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 401,
+        payload: {
+          statusCode: 401,
+          error: 'Unauthorized',
+          message: 'Connection Failure'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T10:12:01.334Z
+  }
+}
+[2026-09-03T10:12:01.335Z] INFO connection update: close
+[2026-09-03T10:12:01.335Z] INFO connection closed Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T10:12:01.335Z] INFO lastDisconnect.error full: Error: Connection Failure
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:800:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { reason: '401', location: 'cln' },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 401,
+    payload: {
+      statusCode: 401,
+      error: 'Unauthorized',
+      message: 'Connection Failure'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T10:12:01.335Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 401,
+  error: 'Unauthorized',
+  message: 'Connection Failure'
+}
+[2026-09-03T10:12:01.335Z] INFO reconnecting in 30910ms (attempt 5/5)
+[2026-09-03T10:12:02.949Z] ERROR Failed to request WhatsApp pairing code: Error: Connection Closed
+    at sendRawMessage (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:60:19)
+    at sendNode (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:79:16)
+    at Object.requestPairingCode (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:607:15)
+    at async Timeout._onTimeout (C:\Users\shadr.JARVIS\Desktop\DotVV\index.js:96:29)
+[2026-09-03T10:12:53.924Z] INFO Webserver listening on port 3000
+[2026-09-03T10:12:54.724Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T10:12:54.726Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T10:12:54.726Z] INFO connection update: connecting
+[2026-09-03T10:12:55.659Z] INFO connection update full: {
+  qr: 'https://wa.me/settings/linked_devices#2@PKLji1+WB+86x+O5nwaHksDvPbJEN5EVIW5wNuc53ofd65ZS6oMPw5sT8KlamSiw2obhCwotMiHku5sz2H2O7ECDn+N4iZXsRcc=,4/WeRZiypVEpEZgpSu9nmhzSLLkqG5ARP6+Xt3UtWz8=,HnkoIBVz5iaT5blBUMyI0xws/CCiMJYcFWBXzxUytFo=,Vt5gzyJTJdEm5LCMtQfYHAMjjN9Epr86w5hWaedeeiw=,1'
+}
+[2026-09-03T10:12:55.660Z] INFO QR code / link (scan or open with WhatsApp Linked Devices):
+ https://wa.me/settings/linked_devices#2@PKLji1+WB+86x+O5nwaHksDvPbJEN5EVIW5wNuc53ofd65ZS6oMPw5sT8KlamSiw2obhCwotMiHku5sz2H2O7ECDn+N4iZXsRcc=,4/WeRZiypVEpEZgpSu9nmhzSLLkqG5ARP6+Xt3UtWz8=,HnkoIBVz5iaT5blBUMyI0xws/CCiMJYcFWBXzxUytFo=,Vt5gzyJTJdEm5LCMtQfYHAMjjN9Epr86w5hWaedeeiw=,1
+[2026-09-03T10:12:55.690Z] INFO ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▄█▄▀▄▀▀█ █▄▄█▀██▄▄█▀▀█▀█ ▀▀▄ ▄██▄  ▄▄█▀█▀▄█  █ ▄▄▄▄▄ █
+█ █   █ █ █▀█▀▀█ █▀ ███▄▀▀▀██ ▄▀▄▄█▄▀▀  ▀▄▄▀ █▄█▄   ▄ █ █   █ █
+█ █▄▄▄█ █▄▀▀▀▄██▄▀█▄▄▄  ███▀█ ▄▄▄ ▀▀▄▄▄ ▄▀█▀▀  ▀▄▀  ▄██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄█ █ ▀ ▀▄█▄▀ ▀ ▀ █▄▀ █▄█ ▀ ▀▄█ █ █▄█▄▀▄█▄▀ █ █▄▄▄▄▄▄▄█
+█▄ ▄▄█▀▄▀  █▄█ ▀▄█▀▀ ▀   ▀█▄▄  ▄ ▄█▄ █▀█▄▄ ▀▀▀▄█▄▀██ █▄▀▀ ▄ ▀▄█
+█▀▀▄█▄▄▄█ ▀▀  ▀▀▄ ▀██▀ ▀▀ ▄▄▄▀▀▄█▄▀▄▄▄▄ █▄▄▄▀▀  █▀███▀▄▄ ▀  ███
+█  ▄▄▄▀▄▄ █▀▄▀▄█▀▄▄▄ ▀▀▀█▄▄████ ███▄ ▀▀▄██▄█ ▀ ▄▄▄ ▀█▄ █ ▀▄ █▀█
+█ ▀██▀ ▄  ▄▀▄█ ██▀ ▀ ▀ ▀▄ ▄▀▄▄▀▄ ▀ ▀▄  █▀▀ ▄█▀▄███▀▄▄█▄  ▀█▄▀▀█
+██▀▄  ▀▄▄▀▄█▀ █▄▄▀▀▀▄▄▄  ▀  █▄▄▀▀  ▀▀█▄▄ ▀▀▄    ▀█▀█▀ ▀█▄   █ █
+█▄ ███▀▄▀█▀▀▄▄▄ ██ ▄█▀█▀█▀▀█▀▄ ███ ▀▄     █▄▄▄█▄█▀█▄▀▀█▄▀ ▀█▄▄█
+█▀██▀▄█▄▀▀▀  ██▀▄▄▀██▄▄▄  ██▀  ▄█▄█▀█▀██▀▄ ▀█▀▄███ ▄██▀ █▀█▄▄▄█
+██▄█  █▄█▀  ▀ ▄▀█▄█ █▀ ▀▄ █▄▀▀▄▄▄ ██▄▄▄█▄▄ ▄▀ █▄ ▀█  █▀▀▀▀▀▀▀▀█
+█▀▄ ▄█ ▄ ▀  █▀ █▀█ █▄▀▀█▀█▀▀█  █▄▀ ▄ ▄█▀▀██▄▄█▄▄▄▄  ▀█▄███▀▄▀ █
+█▀█▀ █▄▄▄▀▄▀▄▀  ▀▄▄█████▀▀█ █   █ ██▀▀█▄ ▄ ▀█ ▄█▄██▄▀█   ▄██ ▀█
+█▄▄▄▄ ▄▄▄  ▀▀▄▀▀▀▀██▀█ █▀▄▄ ▀ ▄▄▄    █ ▄ ▀▀▄▄▄▄ ██▄█  ▄▄▄ █▄█▀█
+█  ▄  █▄█  ▄▄▀ █▀▄▀▄ █ █ ▀▀█▀ █▄█ ▄▀█▄▄▀▄ ▀▀███▄ ▀▄██ █▄█  ▄▄▄█
+█ ▀   ▄▄ ▄▀▀█▄  █ ▄▀▀▄█▄▄▀█▀▀ ▄    ▄▄██▄   ▀██ █▄▀▀▄▀▄▄▄ ▄▄ ▄██
+█▄▄███ ▄ ▄▀▀▄ ▄█▀▄▀█  █▀██  █▄ █▄█▄ ▄███▄█ █▀▀█▄▀▀▄ ▀██▀█▄▀▀█▀█
+█ █ ▀▀▄▄▄▄█   ▀█ █  ▀▀█▀▄█ ▀█ █▄  ██   ▀ █▄▄ █▀█ ▄█  ▀▄ ▀  █▄▀█
+██ ▀ █▄▄▀▀▀█ ▀    ▀▀▀█▀ ███ █▄█  ▄  ▀▀▀▄▄▀▀▄█  ▀▀▀█▄  ▀█ ▀█▄▀▀█
+█▀█ ▄▀█▄▀  ▀ █▀▀   ██  ▀█▄ █ ▀ ▀█▄▄▀██▄▄██▀▄▄▄█▀▀▀▄██  ▄▄▄  ▀██
+█▄▀▄ █▄▄    █ ██▀▄██▀▄███  █▄█ ▄ ▀▀▄▀▄▀▄▄ █▀█▄▀▄▀ ▀ ▄  ▄ ▀▄██▄█
+█▀█▄▄█▀▄█   ▀ █ ▄█ ▀█▄ ▄▀ █▀ █▄██ ▄▄▄▄  ▄▄  ▀▀▄▄ █▄█▀█ ██▄ ██▀█
+█  █▄▀▄▄ ▄▀▄ ▄██ ▀▀█▄▀▄▄▄▀█ █  ▀ ▄█▀█▄▀▄ ▄█▄ ▄▀▄   ▀█▄█▀ █  ███
+█   ▄▄█▄▄▀█▀ ▄▄▄██▄▄  █▄█ ▀█▄▀  ▄▀ █ ▄▄ ▀███▄▀▀▄ ▄▀▀▄ ▄▀  ▄█  █
+█▀▀ ▄ ▄▄▄▄█▀▄▄▀█ ▄ ██▀▀ ▀▄▀▀▀█▄▄▀▄▄▀ ▄█▄▄ ▄██ ██ ██ ▄▄▄▀▀▀▄█ ▀█
+█▄▄▄▄██▄▄▀▀█▀ ██  ▀▀█▄▄▀▀█ ▄  ▄▄▄ ▀▄▄▀▄█▀█▀█  ▄ ▀█▄▄▀ ▄▄▄ █▀  █
+█ ▄▄▄▄▄ ██▀██▄  ▄  ▀█▄▄ ▀█▀▀  █▄█ ▄█▀█▄ ▀▀▄███▀ ▄ ▀▀▄ █▄█  ██ █
+█ █   █ █▀▀█▄▄ ▀██▄ ██  █  ██▄ ▄▄▄ ▄▄█ ▄  ▀▀██ ▄█▀▀█▀▄  ▄▄▄██▀█
+█ █▄▄▄█ █  ▀▄▄ ▄█▄▀▀ ▄▄█▀▀█▄▀▄ █▀██  █▀█▄▀ ▄▄██▄██ ▀▄▀▀█ ▄█ ▄██
+█▄▄▄▄▄▄▄█▄▄▄▄█▄▄█▄█▄█▄███▄▄█████▄██▄█▄▄████▄▄█▄█▄▄██▄▄█▄▄▄█▄▄▄█
+
+[2026-09-03T10:13:14.515Z] INFO connection update full: { isNewLogin: true, qr: undefined }
+[2026-09-03T10:13:15.404Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Stream Errored (restart required)
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: {
+        tag: 'stream:error',
+        attrs: { code: '515' },
+        content: undefined
+      },
+      isBoom: true,
+      isServer: true,
+      output: {
+        statusCode: 515,
+        payload: {
+          statusCode: 515,
+          error: 'Unknown',
+          message: 'Stream Errored (restart required)'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T10:13:15.404Z
+  }
+}
+[2026-09-03T10:13:15.405Z] INFO connection update: close
+[2026-09-03T10:13:15.405Z] INFO connection closed Error: Stream Errored (restart required)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T10:13:15.405Z] INFO lastDisconnect.error full: Error: Stream Errored (restart required)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { tag: 'stream:error', attrs: { code: '515' }, content: undefined },
+  isBoom: true,
+  isServer: true,
+  output: {
+    statusCode: 515,
+    payload: {
+      statusCode: 515,
+      error: 'Unknown',
+      message: 'Stream Errored (restart required)'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T10:13:15.406Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 515,
+  error: 'Unknown',
+  message: 'Stream Errored (restart required)'
+}
+[2026-09-03T10:13:15.406Z] INFO reconnecting in 2263ms (attempt 1/5)
+[2026-09-03T10:13:18.194Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T10:13:18.195Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T10:13:18.195Z] INFO connection update: connecting
+[2026-09-03T10:13:21.935Z] INFO connection update full: { receivedPendingNotifications: true }
+[2026-09-03T10:13:22.196Z] INFO connection update full: { connection: 'open' }
+[2026-09-03T10:13:22.199Z] INFO connection update: open
+[2026-09-03T10:13:22.203Z] INFO connection opened
