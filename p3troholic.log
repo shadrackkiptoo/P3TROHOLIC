@@ -5111,3 +5111,261 @@ SyntaxError: Unexpected token 'else'
   message: 'Stream Errored (conflict)'
 }
 [2026-09-03T00:26:16.127Z] INFO Max reconnect attempts reached — give up. Check network or try again later.
+[2026-09-03T02:00:41.493Z] INFO Webserver listening on port 3000
+[2026-09-03T02:00:46.349Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T02:00:46.352Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T02:00:46.352Z] INFO connection update: connecting
+[2026-09-03T02:00:47.335Z] INFO connection update full: {
+  qr: 'https://wa.me/settings/linked_devices#2@E0HKmP7XzpGdubOJDJH4j0mJouC9Rj5+/rfwcbsouWbhry1pCdg+E2NKKwERPnPfkWAVOwY8z4pnHCBT0bUe9sIj/KrUOBpcekI=,kdraM02PCguZiKQhk1zslqpuREDzwqSh8xJH+HafjAE=,wyCRqjLBQXIAcjQvBny5nycLrU+2SiOW28DEirWCUh0=,9hl6KAbTqH0KbBCJw2+gEU8hSwx+XqZnyuCZg8IWPpY=,1'
+}
+[2026-09-03T02:00:47.335Z] INFO QR code / link (scan or open with WhatsApp Linked Devices):
+ https://wa.me/settings/linked_devices#2@E0HKmP7XzpGdubOJDJH4j0mJouC9Rj5+/rfwcbsouWbhry1pCdg+E2NKKwERPnPfkWAVOwY8z4pnHCBT0bUe9sIj/KrUOBpcekI=,kdraM02PCguZiKQhk1zslqpuREDzwqSh8xJH+HafjAE=,wyCRqjLBQXIAcjQvBny5nycLrU+2SiOW28DEirWCUh0=,9hl6KAbTqH0KbBCJw2+gEU8hSwx+XqZnyuCZg8IWPpY=,1
+[2026-09-03T02:00:47.369Z] INFO ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█ ▄▄▄▄▄ █▄ ██▄█▀█  ▀ █▀▀█▄▀▄▀▀█▀  ▀▀█▀▄██▄▄▄▄ █▀█▀██  █ ▄▄▄▄▄ █
+█ █   █ █ ▄▀▀▄ ▄▄▀ ▀▀▀▄▄▀▀▀▄▀▄ █▄ █▄▀ █ ▀▄▀  █▀▄▀   ▄ █ █   █ █
+█ █▄▄▄█ █▄██▄█ █▄▀▄▄▀ █▀█▀▄ ▄ ▄▄▄ ▀▀▀█ ▄▄▀▀███▄█▄ █ ▄██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀▄█ ▀ ▀▄█▄█▄█ ▀▄█▄▀ █▄█ █ ▀▄█▄█▄█▄█▄█ ▀ ▀ █ █▄▄▄▄▄▄▄█
+█  ▄▄▀█▄▀ ▀▄ ▀▀▀ █▀▀ ▀    █▄▄ ▄  ▄█▄▄▀▀█ ▄ ▀▀▀██▄███▄█▄▀▀ ▄▄▀▄█
+█ ▄▄█▀▄▄▄█▀▄▀██▄▄▄▀██▀ █ █▀▀▄▀ ▄█▄▀▀▄██ █▄  ▀█▀█▀█▀███▄▄ ▀  ███
+█   █▀█▄  ▄▀▀█▄▀ ▄▀ ▄ ████▄▀██▄ ▀███ ▀▀▄██▄█▄▀ ▄  ▀ █▄█▄██▄▄▀▀█
+██  █▄▀▄▄█▀▀▀  █ █ ▀ ▀ ▀█▀▀██▄▀▄██ ▀▄▄ █▀ ▄ ▄▄▄███▄▀▄▄██ ▀▄▄ ██
+█▄▀██ ▀▄ ▄▄▄▄ █▄▄▀▀███▄  ▀  ▄█▄█ █▄▀█▀▄▄ ▀ ▄▄▄  ▀██▄▀  ▄ ▄▄   █
+██▄  ██▄█▀▀▄   ███▀█▄ ▄ █▀ █ ▄█▄ █▀ █▄▄▄  ▄█▀ ▀ ███▀▀▀ ▀ █ ▄ ▄█
+█▀▀ ▀▀ ▄ ▀█▄▀▄▄▄▄▄▄█ ▄     ▀▀▄█▀▀ █▀▄█ █▀▄  ▀███ ▀▀▄██  ▀██▄  █
+█▄▄█ ▀█▄▄  ▄▀▀▀ █ █ ▀█▀▀█▀█▄▀▀ ▄ ▄██ ▀▀▄  ▀█▀ ▄▀▄▀▄▀██  ▀ ▀▀▀██
+█▄ ▄▀ ▀▄▄█▄  ▀▀  ▄ █▄▀████▀▀▄▄▄▄█ ▀▄█▄ ▀▀██▄▄█▀█▄▄  █▄▄████▄  █
+█  ▀▀▄█▄▀▀ ▀ ▄ ▄▀ ▀▄███ ▄▄███ ▄▀█ ▀▀ ▀▄▄█  ▀▀ ▀ ▀▀▀ ▀ ▄   ██ ▀█
+█▄▄▄▀ ▄▄▄ ▀ ▄▄▀▀▀ ▄▀▀█ ▀█▄ ▄▀ ▄▄▄  ▀ █ ▄▄▀▀▄█  ▀▀████ ▄▄▄ █ ███
+███▄▄ █▄█ █ ▄▀▀▄▀▄▀▀ █ █▀▀▀▄▀ █▄█ ▀▄▀▄▄▀█▀ ▄ ██▄  ███ █▄█  █ ▄█
+█ █▄ ▄ ▄ ▄▄██▀█▀█ ▄█ ██▄▄▀███ ▄▄  ▄▄▄██▄   ▀▀▀ █▄▀ ▄▄▄ ▄▄▄ ████
+██ ▀▄▄▀▄ ▀▀ █▄█▄▀▄█▄▀▄ ▄██▀ ▀  ██▄█ █▀▀█▄█▄▄ ▄█ ▀▀█▄ ██▀▄█▀ ▀▀█
+█ ██▄▄ ▄█▀ █▄█ ▄ ▄█  ▀▀▀██▀█  █▄▄ ██ ▄   ██▄ █ █ ▄   ▀▄ ▀▀ ██ █
+█▄  █ ▄▄ ▀ █▀▀ ▀ ▄▀▀█▀▄█ ▀█ █▄ █▄▄▄ █▀▄█▄█ ▄█▀███▄█▄▄█ █▀██▄ ██
+█▄  ▄█▀▄   ▄▀ ▄ ▀  ██ ▀█ ▄ █▀██▀▀▀ ▀██▄█▄█▀▄▄▄▄▀██▄██▄▀▀ █▄▄▀▄█
+██  ██▀▄▄ ▄█▄▄▀▄██▄▀▀▄▀██ █▄▄ ▄▄ ▀██▀▄▀▄ ▀▀▀█▄▀▄▀██▄ ▀ ▄▄█ ██▄█
+█ ▀▄▀█ ▄▀▀ ▀▄▀▀▀▄█ ██▄  ▀ ██▀█▄▀▀▄▄█▄▄  ▀ ▄▀█▀▄▄ █▀▄██ ██▄▄█▀██
+█████  ▄▄▀█  ▄ ▄▀  ▄▀▄▄▄ ████    ▄▀█▀ ▀▄▀▄█ █▀▀█▀▀▀ ▀▀█▀ █ ▀▄██
+█▄▄█▄▀█▄ ▄██▄ ▄▀██ ▄ ▀█▄█ ▀█▄ █ ▄▀ ▄▄▄▄ ▀███▄▀▀▄ ▄█▀   ▄  ███▀█
+█▀▀ ▄ ▄▄ █   ▄▄▀ ▄▄█▄▄▄▄▀▄▄▄█▄▄▄ ▄▄▀▀██▄▄ █▀▀▄██ ▀▄ █▄▄█▄ ▄█▄██
+█▄▄▄▄██▄█ ▄▀▀█  ▀▀██ █▄▀ █ ▄█ ▄▄▄ ▀▄▄███▀▀ █▄ ▀ ▀▀▀▄▀ ▄▄▄ █▀▄ █
+█ ▄▄▄▄▄ ██  ▄▀▀██  ▀▄ ▄██▄▀▀  █▄█ ▄█ ▄▄█▄▄▄▄█▄  ▀█▀ ▄ █▄█  █▄ █
+█ █   █ █▀ ▀▄  ▀▄▄▄ ███ █  ██  ▄ ▄▀▄▄█ ▄ ▄▀▀██ ▄ █▀██▄▄ ▄▄ ██▀█
+█ █▄▄▄█ █ ▄██ █ ▄▄▄▀ ▄█ ▀▀▀█ ▄ █▀▀▄▄ █ ▄ ▄▄ ▄██    ▀ ▀▀█  ▀ ▄██
+█▄▄▄▄▄▄▄█▄▄▄▄█▄█▄▄▄▄▄▄▄█▄██████▄▄████▄▄████▄▄██▄▄▄▄▄██▄▄███▄▄▄█
+
+[2026-09-03T02:01:05.694Z] INFO connection update full: { isNewLogin: true, qr: undefined }
+[2026-09-03T02:01:06.452Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Stream Errored (restart required)
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: {
+        tag: 'stream:error',
+        attrs: { code: '515' },
+        content: undefined
+      },
+      isBoom: true,
+      isServer: true,
+      output: {
+        statusCode: 515,
+        payload: {
+          statusCode: 515,
+          error: 'Unknown',
+          message: 'Stream Errored (restart required)'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T02:01:06.452Z
+  }
+}
+[2026-09-03T02:01:06.453Z] INFO connection update: close
+[2026-09-03T02:01:06.453Z] INFO connection closed Error: Stream Errored (restart required)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T02:01:06.454Z] INFO lastDisconnect.error full: Error: Stream Errored (restart required)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { tag: 'stream:error', attrs: { code: '515' }, content: undefined },
+  isBoom: true,
+  isServer: true,
+  output: {
+    statusCode: 515,
+    payload: {
+      statusCode: 515,
+      error: 'Unknown',
+      message: 'Stream Errored (restart required)'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T02:01:06.455Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 515,
+  error: 'Unknown',
+  message: 'Stream Errored (restart required)'
+}
+[2026-09-03T02:01:06.455Z] INFO reconnecting in 2851ms (attempt 1/5)
+[2026-09-03T02:01:09.876Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T02:01:09.877Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T02:01:09.877Z] INFO connection update: connecting
+[2026-09-03T02:01:14.863Z] INFO connection update full: { receivedPendingNotifications: true }
+[2026-09-03T02:01:15.210Z] INFO connection update full: { connection: 'open' }
+[2026-09-03T02:01:15.211Z] INFO connection update: open
+[2026-09-03T02:01:15.212Z] INFO connection opened
+[2026-09-03T02:03:53.839Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Stream Errored (conflict)
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: {
+        tag: 'conflict',
+        attrs: { type: 'replaced' },
+        content: undefined
+      },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 440,
+        payload: {
+          statusCode: 440,
+          error: 'Unknown',
+          message: 'Stream Errored (conflict)'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T02:03:53.833Z
+  }
+}
+[2026-09-03T02:03:53.847Z] INFO connection update: close
+[2026-09-03T02:03:53.847Z] INFO connection closed Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T02:03:53.857Z] ERROR WhatsApp session conflict: another bot instance or linked device replaced this connection. Stop the other instance, then restart this service.
+[2026-09-03T02:16:10.473Z] INFO Webserver listening on port 3000
+[2026-09-03T02:16:11.280Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T02:16:11.284Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T02:16:11.284Z] INFO connection update: connecting
+[2026-09-03T02:16:13.904Z] INFO connection update full: { receivedPendingNotifications: true }
+[2026-09-03T02:16:14.046Z] INFO connection update full: { isOnline: true }
+[2026-09-03T02:16:14.047Z] INFO connection update full: { connection: 'open' }
+[2026-09-03T02:16:14.047Z] INFO connection update: open
+[2026-09-03T02:16:14.047Z] INFO connection opened
+[2026-09-03T02:16:43.746Z] ERROR Failed to decrypt message with any known session...
+[2026-09-03T02:16:43.746Z] ERROR Session error:Error: Bad MAC Error: Bad MAC
+    at Object.verifyMAC (C:\Users\shadr.JARVIS\Desktop\DotVV\node_modules\@whiskeysockets\baileys\node_modules\libsignal\src\crypto.js:87:15)
+    at SessionCipher.doDecryptWhisperMessage (C:\Users\shadr.JARVIS\Desktop\DotVV\node_modules\@whiskeysockets\baileys\node_modules\libsignal\src\session_cipher.js:250:16)
+    at async SessionCipher.decryptWithSessions (C:\Users\shadr.JARVIS\Desktop\DotVV\node_modules\@whiskeysockets\baileys\node_modules\libsignal\src\session_cipher.js:147:29)
+    at async 115783778758833_1.0 [as awaitable] (C:\Users\shadr.JARVIS\Desktop\DotVV\node_modules\@whiskeysockets\baileys\node_modules\libsignal\src\session_cipher.js:171:28)
+    at async _asyncQueueExecutor (C:\Users\shadr.JARVIS\Desktop\DotVV\node_modules\@whiskeysockets\baileys\node_modules\libsignal\src\queue_job.js:20:29)
+[2026-09-03T02:16:44.413Z] ERROR Failed to decrypt message with any known session...
+[2026-09-03T02:16:44.413Z] ERROR Session error:Error: Bad MAC Error: Bad MAC
+    at Object.verifyMAC (C:\Users\shadr.JARVIS\Desktop\DotVV\node_modules\@whiskeysockets\baileys\node_modules\libsignal\src\crypto.js:87:15)
+    at SessionCipher.doDecryptWhisperMessage (C:\Users\shadr.JARVIS\Desktop\DotVV\node_modules\@whiskeysockets\baileys\node_modules\libsignal\src\session_cipher.js:250:16)
+    at async SessionCipher.decryptWithSessions (C:\Users\shadr.JARVIS\Desktop\DotVV\node_modules\@whiskeysockets\baileys\node_modules\libsignal\src\session_cipher.js:147:29)
+    at async 115783778758833_1.0 [as awaitable] (C:\Users\shadr.JARVIS\Desktop\DotVV\node_modules\@whiskeysockets\baileys\node_modules\libsignal\src\session_cipher.js:171:28)
+    at async _asyncQueueExecutor (C:\Users\shadr.JARVIS\Desktop\DotVV\node_modules\@whiskeysockets\baileys\node_modules\libsignal\src\queue_job.js:20:29)
+[2026-09-03T02:18:08.642Z] INFO Webserver listening on port 3000
+[2026-09-03T02:18:09.345Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T02:18:09.347Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T02:18:09.347Z] INFO connection update: connecting
+[2026-09-03T02:18:11.570Z] INFO connection update full: { isOnline: true }
+[2026-09-03T02:18:11.571Z] INFO connection update full: { connection: 'open' }
+[2026-09-03T02:18:11.571Z] INFO connection update: open
+[2026-09-03T02:18:11.571Z] INFO connection opened
+[2026-09-03T02:18:11.601Z] INFO connection update full: { receivedPendingNotifications: true }
+[2026-09-03T02:24:31.395Z] INFO Webserver listening on port 3000
+[2026-09-03T02:24:32.146Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T02:24:32.147Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T02:24:32.147Z] INFO connection update: connecting
+[2026-09-03T02:24:34.451Z] INFO connection update full: { receivedPendingNotifications: true }
+[2026-09-03T02:24:34.759Z] INFO connection update full: { isOnline: true }
+[2026-09-03T02:24:34.760Z] INFO connection update full: { connection: 'open' }
+[2026-09-03T02:24:34.760Z] INFO connection update: open
+[2026-09-03T02:24:34.760Z] INFO connection opened
+[2026-09-03T02:26:13.640Z] INFO Webserver listening on port 3000
+[2026-09-03T02:26:14.418Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T02:26:14.420Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T02:26:14.420Z] INFO connection update: connecting
+[2026-09-03T02:26:16.591Z] INFO connection update full: { receivedPendingNotifications: true }
+[2026-09-03T02:26:16.672Z] INFO connection update full: { isOnline: true }
+[2026-09-03T02:26:16.673Z] INFO connection update full: { connection: 'open' }
+[2026-09-03T02:26:16.673Z] INFO connection update: open
+[2026-09-03T02:26:16.674Z] INFO connection opened
+[2026-09-03T02:28:19.083Z] INFO Webserver listening on port 3000
+[2026-09-03T02:28:19.814Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T02:28:19.817Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T02:28:19.817Z] INFO connection update: connecting
+[2026-09-03T02:28:21.850Z] INFO connection update full: { isOnline: true }
+[2026-09-03T02:28:21.851Z] INFO connection update full: { connection: 'open' }
+[2026-09-03T02:28:21.851Z] INFO connection update: open
+[2026-09-03T02:28:21.852Z] INFO connection opened
+[2026-09-03T02:28:21.877Z] INFO connection update full: { receivedPendingNotifications: true }
+[2026-09-03T02:30:59.875Z] INFO Webserver listening on port 3000
+[2026-09-03T02:31:00.738Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T02:31:00.744Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T02:31:00.747Z] INFO connection update: connecting
+[2026-09-03T02:31:02.546Z] INFO connection update full: { receivedPendingNotifications: true }
+[2026-09-03T02:31:02.774Z] INFO connection update full: { isOnline: true }
+[2026-09-03T02:31:02.775Z] INFO connection update full: { connection: 'open' }
+[2026-09-03T02:31:02.775Z] INFO connection update: open
+[2026-09-03T02:31:02.775Z] INFO connection opened

@@ -1,2 +1,4 @@
 node_modules/
-auth_info.json
+auth_info/
+.env
+p3troholic.log

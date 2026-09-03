@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 const toWebp = require('./sticker');
 const util = require('util');
 const qrcode = require('qrcode-terminal');
@@ -60,10 +61,11 @@ async function start() {
   } = await import('@whiskeysockets/baileys');
   downloadContentFromMessage = downloadContent;
   const { version } = await fetchLatestBaileysVersion();
-  const { state, saveCreds } = await useMultiFileAuthState('./auth_info');
+  const authDir = process.env.AUTH_DIR || path.join(__dirname, 'auth_info');
+  const { state, saveCreds } = await useMultiFileAuthState(authDir);
 
   const sock = makeWASocket({
-    printQRInTerminal: true,
+    printQRInTerminal: !process.env.PAIRING_NUMBER,
     auth: state,
     version
   });
@@ -78,8 +80,20 @@ async function start() {
 
   sock.ev.on('creds.update', saveCreds);
 
+  if (!state.creds.registered && process.env.PAIRING_NUMBER) {
+    const phoneNumber = process.env.PAIRING_NUMBER.replace(/[^0-9]/g, '');
+    setTimeout(async () => {
+      try {
+        const pairingCode = await sock.requestPairingCode(phoneNumber);
+        console.log(`WhatsApp pairing code: ${pairingCode}`);
+        console.log('On your phone: WhatsApp > Linked devices > Link a device > Link with phone number.');
+      } catch (e) {
+        console.error('Failed to request WhatsApp pairing code:', e);
+      }
+    }, 3000);
+  }
+
   // Load command modules from the commands directory
-  const path = require('path');
   const commands = [];
   const commandsMap = {};
   const commandsDir = path.join(__dirname, 'commands');
