@@ -134,6 +134,12 @@ async function start() {
 
     if (connection === 'close') {
       console.log('connection closed', lastDisconnect && lastDisconnect.error ? lastDisconnect.error : lastDisconnect);
+      const statusCode = lastDisconnect && lastDisconnect.error && lastDisconnect.error.output && lastDisconnect.error.output.statusCode;
+      if (statusCode === 440) {
+        isStarting = false;
+        console.error('WhatsApp session conflict: another bot instance or linked device replaced this connection. Stop the other instance, then restart this service.');
+        return;
+      }
       // if there is a structured error, print its full payload
       if (lastDisconnect && lastDisconnect.error) {
         try {
