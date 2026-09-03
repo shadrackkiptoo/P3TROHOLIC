@@ -254,8 +254,26 @@ async function start() {
         }
       }
 
+      const quotedReply = contextInfo && contextInfo.quotedMessage && contextInfo.stanzaId
+        ? {
+          key: {
+            remoteJid: jid,
+            fromMe: false,
+            id: contextInfo.stanzaId,
+            participant: contextInfo.participant
+          },
+          message: contextInfo.quotedMessage
+        }
+        : null;
+      const commandSock = Object.create(sock);
+      commandSock.sendMessage = (to, content, options) => {
+        const shouldQuote = quotedReply && to === jid && content && !content.react && !content.delete;
+        const sendOptions = shouldQuote ? { ...(options || {}), quoted: quotedReply } : options;
+        return sock.sendMessage(to, content, sendOptions);
+      };
+
       const helpers = { downloadContentFromMessage, streamToBuffer, toWebp, commands };
-      await command.execute({ sock, msg, jid, helpers, textTrim });
+      await command.execute({ sock: commandSock, msg, jid, helpers, textTrim });
     } catch (e) {
       console.error('Message handling error:', e);
     }
