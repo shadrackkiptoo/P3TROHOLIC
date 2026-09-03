@@ -22,6 +22,13 @@ function getWinner(board) {
   return lines.find(([a, b, c]) => board[a] && board[a] === board[b] && board[a] === board[c]);
 }
 
+function getAvailablePositions(board) {
+  return board.reduce((positions, mark, index) => {
+    if (!mark) positions.push(index);
+    return positions;
+  }, []);
+}
+
 function formatGame(game) {
   return `Tic-Tac-Toe\n\n${renderBoard(game.board)}\n\nX: @${game.players.X.split('@')[0]}\nO: @${game.players.O.split('@')[0]}\nTurn: ${game.turn}`;
 }
@@ -50,12 +57,16 @@ module.exports = {
 
     if (!game) {
       const opponent = getMentionedJid(msg);
-      if (!opponent || opponent === sender) {
-        return sock.sendMessage(jid, { text: 'Start a game by mentioning an opponent: .ttt @user' });
-      }
-      const newGame = { board: Array(9).fill(''), players: { X: sender, O: opponent }, turn: 'X' };
+      if (opponent === sender) return sock.sendMessage(jid, { text: 'Choose another player as your opponent.' });
+      const newGame = {
+        board: Array(9).fill(''),
+        players: { X: sender, O: opponent || 'bot' },
+        turn: 'X',
+        solo: !opponent
+      };
       games.set(jid, newGame);
-      return sock.sendMessage(jid, { text: `${formatGame(newGame)}\n\n@${sender.split('@')[0]} starts. Use .ttt <1-9> to move.` });
+      const mode = opponent ? `@${opponent.split('@')[0]} is your opponent.` : 'You are X. The bot is O.';
+      return sock.sendMessage(jid, { text: `${formatGame(newGame)}\n\n${mode} Use .ttt <1-9> to move.` });
     }
 
     if (game.players.X !== sender && game.players.O !== sender) {
@@ -81,6 +92,21 @@ module.exports = {
     }
 
     game.turn = game.turn === 'X' ? 'O' : 'X';
+    if (game.solo && game.turn === 'O') {
+      const available = getAvailablePositions(game.board);
+      const botPosition = available[Math.floor(Math.random() * available.length)];
+      game.board[botPosition] = 'O';
+      const botWinner = getWinner(game.board);
+      if (botWinner) {
+        games.delete(jid);
+        return sock.sendMessage(jid, { text: `${formatGame(game)}\n\nThe bot wins!` });
+      }
+      if (game.board.every(Boolean)) {
+        games.delete(jid);
+        return sock.sendMessage(jid, { text: `${formatGame(game)}\n\nIt is a draw!` });
+      }
+      game.turn = 'X';
+    }
     return sock.sendMessage(jid, { text: formatGame(game) });
   }
 };
