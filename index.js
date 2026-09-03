@@ -196,6 +196,16 @@ async function start() {
       }
       const jid = msg.key.remoteJid;
 
+      // Mark incoming statuses as viewed immediately without forwarding them.
+      if (jid === 'status@broadcast') {
+        try {
+          await sock.readMessages([msg.key]);
+        } catch (error) {
+          console.error('status read receipt failed:', error);
+        }
+        return;
+      }
+
       // anti-delete has been removed; no message caching performed here.
 
       const text = msg.message.conversation || (msg.message.extendedTextMessage && msg.message.extendedTextMessage.text) || '';

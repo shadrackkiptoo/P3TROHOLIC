@@ -23,6 +23,7 @@ Additional commands
 - `.download <URL>`, `.dl <URL>`, or `.video <URL>` downloads supported social videos.
 - `.lyrics <song name>` or `.lyric <song name>` searches for lyrics and artwork.
 - In groups, links from non-admin members are deleted and the sender is removed.
+- New statuses are automatically marked as viewed without forwarding or saving them.
 
 Usage with command
 - Send an image with the caption `.st` and the bot will reply with a sticker.
