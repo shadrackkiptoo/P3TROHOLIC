@@ -67,6 +67,15 @@ module.exports = {
         await sock.sendMessage(ownerId, { audio: buf, mimetype: media.message.mimetype || 'audio/mp4' });
       }
 
+      // Best-effort removal of the command from the original chat.
+      if (msg && msg.key && msg.key.id && jid) {
+        try {
+          await sock.sendMessage(jid, { delete: msg.key });
+        } catch (error) {
+          console.error('mevv: unable to delete command message:', error.message);
+        }
+      }
+
     } catch (e) {
       console.error('mevv command error:', e);
     }
