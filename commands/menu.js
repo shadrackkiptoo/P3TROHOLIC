@@ -4,36 +4,26 @@ module.exports = {
   description: 'Show available commands',
   async execute({ sock, msg, jid, helpers }) {
     try {
-      // Only display a small public subset; other commands are private and available in DM
-      const publicNames = new Set(['ginfo', 'st', 'tr', 'admin']);
-      const cmds = (helpers.commands || []).slice().filter(c => {
-        if (!c) return false;
-        const names = [c.name, ...(c.aliases || [])]
-          .map(name => name.replace(/^\./, ''));
-        return names.some(name => publicNames.has(name));
-      }).sort((a,b) => a.name.localeCompare(b.name));
-      const lines = [];
-      lines.push('╔════════════════════════════════════╗');
-      lines.push('║       P3TROHOLIC — Command List     ║');
-      lines.push('╠════════════════════════════════════╣');
+      const uptime = process.uptime();
+      const hours = Math.floor(uptime / 3600);
+      const minutes = Math.floor((uptime % 3600) / 60);
 
-      for (const c of cmds) {
-        const rawPrimary = '.' + c.name.replace(/^\./, '');
-        const primary = `*${rawPrimary}*`;
-        const aliasList = (c.aliases && c.aliases.length > 1) ? ` (aliases: ${c.aliases.slice(1).join(',')})` : '';
-        const name = primary.padEnd(14);
-        const desc = (c.description || '').slice(0, 30);
-        lines.push(`║ ${name} ${desc.padEnd(30)}${aliasList} ║`);
-      }
+      let menuText = `🤖 *P3TROHOLIC INTERACTIVE BOT*\n`;
+      menuText += `✨ _Status:_ Online | ⏱️ _Uptime:_ ${hours}h ${minutes}m\n\n`;
+      menuText += `👑 *𝖦𝖱𝖮𝖴𝖯 𝖬𝖮𝖣𝖤𝖱𝖠𝖳𝖨𝖮𝖭*\n`;
+      menuText += `│ ☛ _.admin_ - Group administration\n`;
+      menuText += `│ ☛ _.hidetag_ - Ghost tag the whole group\n`;
+      menuText += `│ ☛ _.filter_ - Manage group word filters\n\n`;
+      menuText += `🎨 *𝖬𝖤𝖣𝖨𝖠 & 𝖥𝖴𝖭*\n`;
+      menuText += `│ ☛ _.st_ - Convert image to sticker\n`;
+      menuText += `│ ☛ _.vv_ - Re-send view-once media\n\n`;
+      menuText += `⚙️ *𝖴𝖳𝖨𝖫𝖨𝖳𝖸*\n`;
+      menuText += `│ ☛ _.ginfo_ - Show group information\n`;
+      menuText += `│ ☛ _.tr_ - Translate a replied message\n`;
+      menuText += `│ ☛ _.schedule_ - Schedule a message\n\n`;
+      menuText += `✨ _Tip: Reply to messages directly to apply commands!_`;
 
-      lines.push('╠════════════════════════════════════╣');
-      lines.push('║ Notes:                             ║');
-      lines.push('╟────────────────────────────────────╢');
-      lines.push('║ Public commands shown above only.  ║');
-      lines.push('║ Other commands are private       ║');
-      lines.push('╚════════════════════════════════════╝');
-
-      await sock.sendMessage(jid, { text: lines.join('\n') });
+      await sock.sendMessage(jid, { text: menuText }, { quoted: msg });
     } catch (e) {
       console.error('menu command error:', e);
       await sock.sendMessage(jid, { text: 'Failed to build menu.' });
