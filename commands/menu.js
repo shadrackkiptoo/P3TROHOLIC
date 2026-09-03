@@ -5,7 +5,7 @@ module.exports = {
   async execute({ sock, msg, jid, helpers }) {
     try {
       // Only display a small public subset; other commands are private and available in DM
-      const publicNames = new Set(['ginfo', 'st', 'tr', 'admin', 'ttt']);
+      const publicNames = new Set(['ginfo', 'st', 'tr', 'admin']);
       const cmds = (helpers.commands || []).slice().filter(c => {
         if (!c) return false;
         const names = [c.name, ...(c.aliases || [])]
