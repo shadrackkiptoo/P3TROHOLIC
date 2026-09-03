@@ -235,6 +235,25 @@ async function start() {
       const command = commandsMap[cmdName] || commandsMap['.' + cmdName] || null;
       if (!command) return;
 
+      const contextInfo = msg.message.extendedTextMessage && msg.message.extendedTextMessage.contextInfo;
+      if (contextInfo && contextInfo.quotedMessage && contextInfo.stanzaId) {
+        try {
+          await sock.sendMessage(jid, {
+            react: {
+              text: '🤖',
+              key: {
+                remoteJid: jid,
+                fromMe: false,
+                id: contextInfo.stanzaId,
+                participant: contextInfo.participant
+              }
+            }
+          });
+        } catch (e) {
+          console.error('Failed to react to quoted command message:', e);
+        }
+      }
+
       const helpers = { downloadContentFromMessage, streamToBuffer, toWebp, commands };
       await command.execute({ sock, msg, jid, helpers, textTrim });
     } catch (e) {
