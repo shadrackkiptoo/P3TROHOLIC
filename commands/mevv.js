@@ -34,6 +34,9 @@ module.exports = {
         console.error('mevv: unable to read data/config.json:', error.message);
       }
       const ownerId = normalizeJid(config.ownerJid || config.owner || config.ownerNumber);
+      if (!ownerId || ownerId.endsWith('@g.us')) {
+        console.error('mevv: no valid owner configured in data/config.json. Set owner to a WhatsApp JID.');
+      }
       const sendPrivateNotice = async (text) => {
         if (ownerId && !ownerId.endsWith('@g.us')) await sock.sendMessage(ownerId, { text });
       };
@@ -47,7 +50,7 @@ module.exports = {
       const buf = await streamToBuffer(stream);
       if (!buf || buf.length === 0) return await sendPrivateNotice('Failed to retrieve media.');
 
-      if (!ownerId || ownerId.endsWith('@g.us')) return;
+      if (!ownerId || ownerId.endsWith('@g.us')) return await sendPrivateNotice('mevv is not configured: set owner in data/config.json.');
 
       if (media.type === 'image') {
         await sock.sendMessage(ownerId, { image: buf, caption: 'Recovered media (private)' });
