@@ -68,6 +68,14 @@ async function start() {
     version
   });
 
+  const sentMessageIds = new Set();
+  const originalSendMessage = sock.sendMessage.bind(sock);
+  sock.sendMessage = async (...args) => {
+    const result = await originalSendMessage(...args);
+    if (result && result.key && result.key.id) sentMessageIds.add(result.key.id);
+    return result;
+  };
+
   sock.ev.on('creds.update', saveCreds);
 
   // Load command modules from the commands directory
@@ -153,7 +161,10 @@ async function start() {
       const messages = m.messages;
       const msg = messages[0];
       if (!msg || !msg.message) return;
-      if (msg.key && msg.key.fromMe) return;
+      if (msg.key && msg.key.id && sentMessageIds.has(msg.key.id)) {
+        sentMessageIds.delete(msg.key.id);
+        return;
+      }
       const jid = msg.key.remoteJid;
 
       // anti-delete has been removed; no message caching performed here.
