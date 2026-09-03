@@ -48,25 +48,25 @@ module.exports = {
 
       if (sub === 'add') {
         await sock.groupParticipantsUpdate(jid, targets, 'add');
-        await sock.sendMessage(jid, { text: `Added: ${targets.join(', ')}` }, { quoted: msg });
+        await sock.sendMessage(jid, { text: 'User added to the group.' }, { quoted: msg });
         return;
       }
 
       if (sub === 'remove' || sub === 'kick') {
         await sock.groupParticipantsUpdate(jid, targets, 'remove');
-        await sock.sendMessage(jid, { text: `Removed: ${targets.join(', ')}` }, { quoted: msg });
+        await sock.sendMessage(jid, { text: 'User removed from the group.' }, { quoted: msg });
         return;
       }
 
       if (sub === 'promote') {
         await sock.groupParticipantsUpdate(jid, targets, 'promote');
-        await sock.sendMessage(jid, { text: `Promoted to admin: ${targets.join(', ')}` }, { quoted: msg });
+        await sock.sendMessage(jid, { text: 'User promoted to admin.' }, { quoted: msg });
         return;
       }
 
       if (sub === 'demote') {
         await sock.groupParticipantsUpdate(jid, targets, 'demote');
-        await sock.sendMessage(jid, { text: `Demoted from admin: ${targets.join(', ')}` }, { quoted: msg });
+        await sock.sendMessage(jid, { text: 'User demoted from admin.' }, { quoted: msg });
         return;
       }
 
