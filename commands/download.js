@@ -1,3 +1,22 @@
+const fs = require('fs');
+const os = require('os');
+const path = require('path');
+const YTDlpWrap = require('yt-dlp-wrap').default;
+
+let ytDlpWrap;
+
+async function getDownloader() {
+  if (ytDlpWrap) return ytDlpWrap;
+
+  const binaryName = process.platform === 'win32' ? 'yt-dlp.exe' : 'yt-dlp';
+  const binaryPath = path.join(os.tmpdir(), binaryName);
+  if (!fs.existsSync(binaryPath)) {
+    await YTDlpWrap.downloadFromGithub(binaryPath);
+  }
+  ytDlpWrap = new YTDlpWrap(binaryPath);
+  return ytDlpWrap;
+}
+
 module.exports = {
   name: 'download',
   aliases: ['.download', '.dl', '.video'],
@@ -11,18 +30,19 @@ module.exports = {
     await sock.sendMessage(jid, { react: { text: '⏳', key: msg.key } });
 
     try {
-      const response = await fetch('https://api.cobalt.tools/', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-        body: JSON.stringify({ url: urlLink, downloadMode: 'auto', videoQuality: '720' })
-      });
-      if (!response.ok) throw new Error(`Downloader returned HTTP ${response.status}`);
-
-      const data = await response.json();
-      if (!data.url || !['redirect', 'tunnel', 'stream'].includes(data.status)) throw new Error('No downloadable media URL');
+      const downloader = await getDownloader();
+      const mediaUrl = (await downloader.execPromise([
+        urlLink,
+        '--no-playlist',
+        '-f',
+        'best[ext=mp4]/best',
+        '--get-url',
+        '--no-warnings'
+      ])).trim().split(/\r?\n/)[0];
+      if (!mediaUrl || !URL.canParse(mediaUrl)) throw new Error('No downloadable media URL');
 
       return sock.sendMessage(jid, {
-        video: { url: data.url },
+        video: { url: mediaUrl },
         caption: '📥 *Downloaded successfully!*'
       }, { quoted: msg });
     } catch (error) {

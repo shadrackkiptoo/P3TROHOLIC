@@ -13,6 +13,7 @@
     "google-tts-api": "^2.0.2",
     "libphonenumber-js": "^1.13.12",
     "qrcode-terminal": "^0.12.0",
-    "sharp": "^0.32.0"
+    "sharp": "^0.32.0",
+    "yt-dlp-wrap": "^2.3.12"
   }
 }
