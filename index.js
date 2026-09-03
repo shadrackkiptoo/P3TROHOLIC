@@ -72,9 +72,10 @@ async function start() {
     }
   }
   const { state, saveCreds } = await useMultiFileAuthState(authDir);
+  const pairingNumber = (process.env.PAIRING_NUMBER || '').replace(/[^0-9]/g, '');
 
   const sock = makeWASocket({
-    printQRInTerminal: !process.env.PAIRING_NUMBER,
+    printQRInTerminal: !pairingNumber,
     auth: state,
     version
   });
@@ -89,13 +90,12 @@ async function start() {
 
   sock.ev.on('creds.update', saveCreds);
 
-  if (!state.creds.registered && process.env.PAIRING_NUMBER) {
-    const phoneNumber = process.env.PAIRING_NUMBER.replace(/[^0-9]/g, '');
+  if (!state.creds.registered && pairingNumber) {
     setTimeout(async () => {
       try {
-        const pairingCode = await sock.requestPairingCode(phoneNumber);
-        console.log(`WhatsApp pairing code: ${pairingCode}`);
-        console.log('On your phone: WhatsApp > Linked devices > Link a device > Link with phone number.');
+        const pairingCode = await sock.requestPairingCode(pairingNumber);
+        console.log(`================ PAIRING CODE: ${pairingCode} ================`);
+        console.log('WhatsApp: Settings > Linked devices > Link a device > Link with phone number.');
       } catch (e) {
         console.error('Failed to request WhatsApp pairing code:', e);
       }
@@ -138,7 +138,7 @@ async function start() {
     // Some Baileys versions return a link/ref instead of a QR string.
     // Use any available QR string or link and print an ASCII QR in the terminal.
     const qrData = qr || update.ref || update.link || update.url || update.referral;
-    if (qrData) {
+    if (qrData && !pairingNumber) {
       console.log('QR code / link (scan or open with WhatsApp Linked Devices):\n', qrData);
       try {
         qrcode.generate(qrData, { small: true }, (q) => console.log(q));
