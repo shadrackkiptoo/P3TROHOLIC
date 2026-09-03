@@ -1,5 +1,4 @@
 const fs = require('fs');
-const { default: makeWASocket, useMultiFileAuthState, downloadContentFromMessage, fetchLatestBaileysVersion } = require('@whiskeysockets/baileys');
 const toWebp = require('./sticker');
 const util = require('util');
 const qrcode = require('qrcode-terminal');
@@ -47,11 +46,19 @@ process.on('SIGINT', () => { logStream.end(); process.exit(); });
 let reconnectAttempts = 0;
 let isStarting = false;
 const MAX_RETRIES = 5;
+let downloadContentFromMessage;
 
 
 async function start() {
   if (isStarting) return;
   isStarting = true;
+  const {
+    default: makeWASocket,
+    useMultiFileAuthState,
+    downloadContentFromMessage: downloadContent,
+    fetchLatestBaileysVersion
+  } = await import('@whiskeysockets/baileys');
+  downloadContentFromMessage = downloadContent;
   const { version } = await fetchLatestBaileysVersion();
   const { state, saveCreds } = await useMultiFileAuthState('./auth_info');
 
