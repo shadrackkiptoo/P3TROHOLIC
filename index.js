@@ -153,6 +153,7 @@ async function start() {
       const messages = m.messages;
       const msg = messages[0];
       if (!msg || !msg.message) return;
+      if (msg.key && msg.key.fromMe) return;
       const jid = msg.key.remoteJid;
 
       // anti-delete has been removed; no message caching performed here.
