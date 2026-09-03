@@ -5,6 +5,18 @@ const YTDlpWrap = require('yt-dlp-wrap').default;
 
 let ytDlpWrap;
 
+async function getTikTokUrl(urlLink) {
+  const response = await fetch('https://www.tikwm.com/api/', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: new URLSearchParams({ url: urlLink })
+  });
+  if (!response.ok) throw new Error(`TikTok API returned HTTP ${response.status}`);
+  const data = await response.json();
+  if (data.code !== 0 || !data.data?.play) throw new Error(data.msg || 'TikTok video was not found');
+  return data.data.play;
+}
+
 async function getDownloader() {
   if (ytDlpWrap) return ytDlpWrap;
 
@@ -30,15 +42,21 @@ module.exports = {
     await sock.sendMessage(jid, { react: { text: '⏳', key: msg.key } });
 
     try {
-      const downloader = await getDownloader();
-      const mediaUrl = (await downloader.execPromise([
-        urlLink,
-        '--no-playlist',
-        '-f',
-        'best[ext=mp4]/best',
-        '--get-url',
-        '--no-warnings'
-      ])).trim().split(/\r?\n/)[0];
+      const parsedUrl = new URL(urlLink);
+      let mediaUrl;
+      if (parsedUrl.hostname === 'tiktok.com' || parsedUrl.hostname.endsWith('.tiktok.com')) {
+        mediaUrl = await getTikTokUrl(urlLink);
+      } else {
+        const downloader = await getDownloader();
+        mediaUrl = (await downloader.execPromise([
+          urlLink,
+          '--no-playlist',
+          '-f',
+          'best[ext=mp4]/best',
+          '--get-url',
+          '--no-warnings'
+        ])).trim().split(/\r?\n/)[0];
+      }
       if (!mediaUrl || !URL.canParse(mediaUrl)) throw new Error('No downloadable media URL');
 
       return sock.sendMessage(jid, {
@@ -47,7 +65,7 @@ module.exports = {
       }, { quoted: msg });
     } catch (error) {
       console.error('download: failed to process URL:', error);
-      return sock.sendMessage(jid, { text: '❌ Failed to process video link. Ensure the profile is public.' });
+      return sock.sendMessage(jid, { text: '❌ Could not download this public video. The link may be unsupported or may not point directly to a video.' });
     }
   }
 };

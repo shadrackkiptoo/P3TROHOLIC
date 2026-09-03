@@ -22,6 +22,7 @@ module.exports = {
       menuText += `│ ☛ _.tts_ / _.say_ - Convert text to a voice note\n`;
       menuText += `│ ☛ _.download_ / _.dl_ - Download a social video\n`;
       menuText += `│ ☛ _.lyrics_ / _.lyric_ - Search for song lyrics\n\n`;
+      menuText += `│ ☛ _.pics_ - Count and download webpage images\n\n`;
       menuText += `🎮 *𝖦𝖠𝖬𝖤𝖲*\n`;
       menuText += `│ ☛ _.ttt_ - Play Tic-Tac-Toe\n\n`;
       menuText += `⚙️ *𝖴𝖳𝖨𝖫𝖨𝖳𝖸*\n`;
