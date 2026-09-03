@@ -3356,3 +3356,1758 @@ SyntaxError: Unexpected token 'else'
 [2026-09-02T23:57:40.245Z] INFO connection update full: { connection: 'open' }
 [2026-09-02T23:57:40.246Z] INFO connection update: open
 [2026-09-02T23:57:40.246Z] INFO connection opened
+[2026-09-03T00:23:11.336Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Stream Errored (conflict)
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: {
+        tag: 'conflict',
+        attrs: { type: 'replaced' },
+        content: undefined
+      },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 440,
+        payload: {
+          statusCode: 440,
+          error: 'Unknown',
+          message: 'Stream Errored (conflict)'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T00:23:11.333Z
+  }
+}
+[2026-09-03T00:23:11.339Z] INFO connection update: close
+[2026-09-03T00:23:11.340Z] INFO connection closed Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T00:23:11.343Z] INFO lastDisconnect.error full: Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { tag: 'conflict', attrs: { type: 'replaced' }, content: undefined },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 440,
+    payload: {
+      statusCode: 440,
+      error: 'Unknown',
+      message: 'Stream Errored (conflict)'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T00:23:11.344Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 440,
+  error: 'Unknown',
+  message: 'Stream Errored (conflict)'
+}
+[2026-09-03T00:23:11.344Z] INFO reconnecting in 2786ms (attempt 1/5)
+[2026-09-03T00:23:14.707Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T00:23:14.708Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T00:23:14.708Z] INFO connection update: connecting
+[2026-09-03T00:23:16.726Z] INFO connection update full: { receivedPendingNotifications: true }
+[2026-09-03T00:23:17.033Z] INFO connection update full: { isOnline: true }
+[2026-09-03T00:23:17.034Z] INFO connection update full: { connection: 'open' }
+[2026-09-03T00:23:17.034Z] INFO connection update: open
+[2026-09-03T00:23:17.034Z] INFO connection opened
+[2026-09-03T00:23:17.900Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Stream Errored (conflict)
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: {
+        tag: 'conflict',
+        attrs: { type: 'replaced' },
+        content: undefined
+      },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 440,
+        payload: {
+          statusCode: 440,
+          error: 'Unknown',
+          message: 'Stream Errored (conflict)'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T00:23:17.899Z
+  }
+}
+[2026-09-03T00:23:17.900Z] INFO connection update: close
+[2026-09-03T00:23:17.900Z] INFO connection closed Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T00:23:17.900Z] INFO lastDisconnect.error full: Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { tag: 'conflict', attrs: { type: 'replaced' }, content: undefined },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 440,
+    payload: {
+      statusCode: 440,
+      error: 'Unknown',
+      message: 'Stream Errored (conflict)'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T00:23:17.900Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 440,
+  error: 'Unknown',
+  message: 'Stream Errored (conflict)'
+}
+[2026-09-03T00:23:17.901Z] INFO reconnecting in 2867ms (attempt 1/5)
+[2026-09-03T00:23:21.288Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T00:23:21.289Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T00:23:21.289Z] INFO connection update: connecting
+[2026-09-03T00:23:22.561Z] INFO connection update full: { receivedPendingNotifications: true }
+[2026-09-03T00:23:22.830Z] INFO connection update full: { isOnline: true }
+[2026-09-03T00:23:22.830Z] INFO connection update full: { connection: 'open' }
+[2026-09-03T00:23:22.830Z] INFO connection update: open
+[2026-09-03T00:23:22.830Z] INFO connection opened
+[2026-09-03T00:23:23.334Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Stream Errored (conflict)
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: {
+        tag: 'conflict',
+        attrs: { type: 'replaced' },
+        content: undefined
+      },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 440,
+        payload: {
+          statusCode: 440,
+          error: 'Unknown',
+          message: 'Stream Errored (conflict)'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T00:23:23.334Z
+  }
+}
+[2026-09-03T00:23:23.334Z] INFO connection update: close
+[2026-09-03T00:23:23.334Z] INFO connection closed Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T00:23:23.335Z] INFO lastDisconnect.error full: Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { tag: 'conflict', attrs: { type: 'replaced' }, content: undefined },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 440,
+    payload: {
+      statusCode: 440,
+      error: 'Unknown',
+      message: 'Stream Errored (conflict)'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T00:23:23.335Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 440,
+  error: 'Unknown',
+  message: 'Stream Errored (conflict)'
+}
+[2026-09-03T00:23:23.335Z] INFO reconnecting in 2738ms (attempt 1/5)
+[2026-09-03T00:23:26.588Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T00:23:26.588Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T00:23:26.588Z] INFO connection update: connecting
+[2026-09-03T00:23:28.212Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Stream Errored (conflict)
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: {
+        tag: 'conflict',
+        attrs: { type: 'replaced' },
+        content: undefined
+      },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 440,
+        payload: {
+          statusCode: 440,
+          error: 'Unknown',
+          message: 'Stream Errored (conflict)'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T00:23:28.212Z
+  }
+}
+[2026-09-03T00:23:28.212Z] INFO connection update: close
+[2026-09-03T00:23:28.212Z] INFO connection closed Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T00:23:28.213Z] INFO lastDisconnect.error full: Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { tag: 'conflict', attrs: { type: 'replaced' }, content: undefined },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 440,
+    payload: {
+      statusCode: 440,
+      error: 'Unknown',
+      message: 'Stream Errored (conflict)'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T00:23:28.213Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 440,
+  error: 'Unknown',
+  message: 'Stream Errored (conflict)'
+}
+[2026-09-03T00:23:28.213Z] INFO reconnecting in 4594ms (attempt 2/5)
+[2026-09-03T00:23:33.362Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T00:23:33.363Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T00:23:33.363Z] INFO connection update: connecting
+[2026-09-03T00:23:35.069Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Stream Errored (conflict)
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: {
+        tag: 'conflict',
+        attrs: { type: 'replaced' },
+        content: undefined
+      },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 440,
+        payload: {
+          statusCode: 440,
+          error: 'Unknown',
+          message: 'Stream Errored (conflict)'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T00:23:35.069Z
+  }
+}
+[2026-09-03T00:23:35.069Z] INFO connection update: close
+[2026-09-03T00:23:35.069Z] INFO connection closed Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T00:23:35.070Z] INFO lastDisconnect.error full: Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { tag: 'conflict', attrs: { type: 'replaced' }, content: undefined },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 440,
+    payload: {
+      statusCode: 440,
+      error: 'Unknown',
+      message: 'Stream Errored (conflict)'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T00:23:35.070Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 440,
+  error: 'Unknown',
+  message: 'Stream Errored (conflict)'
+}
+[2026-09-03T00:23:35.070Z] INFO reconnecting in 8399ms (attempt 3/5)
+[2026-09-03T00:23:43.988Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T00:23:43.989Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T00:23:43.989Z] INFO connection update: connecting
+[2026-09-03T00:23:45.645Z] INFO connection update full: { receivedPendingNotifications: true }
+[2026-09-03T00:23:45.860Z] INFO connection update full: { isOnline: true }
+[2026-09-03T00:23:45.861Z] INFO connection update full: { connection: 'open' }
+[2026-09-03T00:23:45.861Z] INFO connection update: open
+[2026-09-03T00:23:45.861Z] INFO connection opened
+[2026-09-03T00:23:47.830Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Stream Errored (conflict)
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: {
+        tag: 'conflict',
+        attrs: { type: 'replaced' },
+        content: undefined
+      },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 440,
+        payload: {
+          statusCode: 440,
+          error: 'Unknown',
+          message: 'Stream Errored (conflict)'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T00:23:47.830Z
+  }
+}
+[2026-09-03T00:23:47.831Z] INFO connection update: close
+[2026-09-03T00:23:47.831Z] INFO connection closed Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T00:23:47.831Z] INFO lastDisconnect.error full: Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { tag: 'conflict', attrs: { type: 'replaced' }, content: undefined },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 440,
+    payload: {
+      statusCode: 440,
+      error: 'Unknown',
+      message: 'Stream Errored (conflict)'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T00:23:47.831Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 440,
+  error: 'Unknown',
+  message: 'Stream Errored (conflict)'
+}
+[2026-09-03T00:23:47.831Z] INFO reconnecting in 2157ms (attempt 1/5)
+[2026-09-03T00:23:50.500Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T00:23:50.500Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T00:23:50.500Z] INFO connection update: connecting
+[2026-09-03T00:23:52.765Z] INFO connection update full: { receivedPendingNotifications: true }
+[2026-09-03T00:23:53.071Z] INFO connection update full: { isOnline: true }
+[2026-09-03T00:23:53.072Z] INFO connection update full: { connection: 'open' }
+[2026-09-03T00:23:53.072Z] INFO connection update: open
+[2026-09-03T00:23:53.073Z] INFO connection opened
+[2026-09-03T00:23:55.095Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Stream Errored (conflict)
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: {
+        tag: 'conflict',
+        attrs: { type: 'replaced' },
+        content: undefined
+      },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 440,
+        payload: {
+          statusCode: 440,
+          error: 'Unknown',
+          message: 'Stream Errored (conflict)'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T00:23:55.095Z
+  }
+}
+[2026-09-03T00:23:55.095Z] INFO connection update: close
+[2026-09-03T00:23:55.096Z] INFO connection closed Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T00:23:55.096Z] INFO lastDisconnect.error full: Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { tag: 'conflict', attrs: { type: 'replaced' }, content: undefined },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 440,
+    payload: {
+      statusCode: 440,
+      error: 'Unknown',
+      message: 'Stream Errored (conflict)'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T00:23:55.096Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 440,
+  error: 'Unknown',
+  message: 'Stream Errored (conflict)'
+}
+[2026-09-03T00:23:55.096Z] INFO reconnecting in 2819ms (attempt 1/5)
+[2026-09-03T00:23:58.441Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T00:23:58.442Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T00:23:58.442Z] INFO connection update: connecting
+[2026-09-03T00:23:59.955Z] INFO connection update full: { receivedPendingNotifications: true }
+[2026-09-03T00:24:00.254Z] INFO connection update full: { isOnline: true }
+[2026-09-03T00:24:00.256Z] INFO connection update full: { connection: 'open' }
+[2026-09-03T00:24:00.256Z] INFO connection update: open
+[2026-09-03T00:24:00.256Z] INFO connection opened
+[2026-09-03T00:24:01.009Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Stream Errored (conflict)
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: {
+        tag: 'conflict',
+        attrs: { type: 'replaced' },
+        content: undefined
+      },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 440,
+        payload: {
+          statusCode: 440,
+          error: 'Unknown',
+          message: 'Stream Errored (conflict)'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T00:24:01.009Z
+  }
+}
+[2026-09-03T00:24:01.009Z] INFO connection update: close
+[2026-09-03T00:24:01.009Z] INFO connection closed Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T00:24:01.010Z] INFO lastDisconnect.error full: Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { tag: 'conflict', attrs: { type: 'replaced' }, content: undefined },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 440,
+    payload: {
+      statusCode: 440,
+      error: 'Unknown',
+      message: 'Stream Errored (conflict)'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T00:24:01.010Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 440,
+  error: 'Unknown',
+  message: 'Stream Errored (conflict)'
+}
+[2026-09-03T00:24:01.010Z] INFO reconnecting in 2093ms (attempt 1/5)
+[2026-09-03T00:24:03.629Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T00:24:03.629Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T00:24:03.629Z] INFO connection update: connecting
+[2026-09-03T00:24:06.365Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Stream Errored (conflict)
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: {
+        tag: 'conflict',
+        attrs: { type: 'replaced' },
+        content: undefined
+      },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 440,
+        payload: {
+          statusCode: 440,
+          error: 'Unknown',
+          message: 'Stream Errored (conflict)'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T00:24:06.364Z
+  }
+}
+[2026-09-03T00:24:06.365Z] INFO connection update: close
+[2026-09-03T00:24:06.365Z] INFO connection closed Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T00:24:06.365Z] INFO lastDisconnect.error full: Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { tag: 'conflict', attrs: { type: 'replaced' }, content: undefined },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 440,
+    payload: {
+      statusCode: 440,
+      error: 'Unknown',
+      message: 'Stream Errored (conflict)'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T00:24:06.365Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 440,
+  error: 'Unknown',
+  message: 'Stream Errored (conflict)'
+}
+[2026-09-03T00:24:06.365Z] INFO reconnecting in 4745ms (attempt 2/5)
+[2026-09-03T00:24:11.626Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T00:24:11.626Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T00:24:11.627Z] INFO connection update: connecting
+[2026-09-03T00:24:13.163Z] INFO connection update full: { receivedPendingNotifications: true }
+[2026-09-03T00:24:13.464Z] INFO connection update full: { isOnline: true }
+[2026-09-03T00:24:13.465Z] INFO connection update full: { connection: 'open' }
+[2026-09-03T00:24:13.465Z] INFO connection update: open
+[2026-09-03T00:24:13.465Z] INFO connection opened
+[2026-09-03T00:24:15.621Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Stream Errored (conflict)
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: {
+        tag: 'conflict',
+        attrs: { type: 'replaced' },
+        content: undefined
+      },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 440,
+        payload: {
+          statusCode: 440,
+          error: 'Unknown',
+          message: 'Stream Errored (conflict)'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T00:24:15.621Z
+  }
+}
+[2026-09-03T00:24:15.622Z] INFO connection update: close
+[2026-09-03T00:24:15.622Z] INFO connection closed Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T00:24:15.622Z] INFO lastDisconnect.error full: Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { tag: 'conflict', attrs: { type: 'replaced' }, content: undefined },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 440,
+    payload: {
+      statusCode: 440,
+      error: 'Unknown',
+      message: 'Stream Errored (conflict)'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T00:24:15.622Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 440,
+  error: 'Unknown',
+  message: 'Stream Errored (conflict)'
+}
+[2026-09-03T00:24:15.622Z] INFO reconnecting in 2707ms (attempt 1/5)
+[2026-09-03T00:24:18.884Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T00:24:18.884Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T00:24:18.884Z] INFO connection update: connecting
+[2026-09-03T00:24:20.836Z] INFO connection update full: { receivedPendingNotifications: true }
+[2026-09-03T00:24:21.021Z] INFO connection update full: { isOnline: true }
+[2026-09-03T00:24:21.022Z] INFO connection update full: { connection: 'open' }
+[2026-09-03T00:24:21.023Z] INFO connection update: open
+[2026-09-03T00:24:21.023Z] INFO connection opened
+[2026-09-03T00:24:21.303Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Stream Errored (conflict)
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: {
+        tag: 'conflict',
+        attrs: { type: 'replaced' },
+        content: undefined
+      },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 440,
+        payload: {
+          statusCode: 440,
+          error: 'Unknown',
+          message: 'Stream Errored (conflict)'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T00:24:21.303Z
+  }
+}
+[2026-09-03T00:24:21.303Z] INFO connection update: close
+[2026-09-03T00:24:21.304Z] INFO connection closed Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T00:24:21.304Z] INFO lastDisconnect.error full: Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { tag: 'conflict', attrs: { type: 'replaced' }, content: undefined },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 440,
+    payload: {
+      statusCode: 440,
+      error: 'Unknown',
+      message: 'Stream Errored (conflict)'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T00:24:21.304Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 440,
+  error: 'Unknown',
+  message: 'Stream Errored (conflict)'
+}
+[2026-09-03T00:24:21.304Z] INFO reconnecting in 2915ms (attempt 1/5)
+[2026-09-03T00:24:24.729Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T00:24:24.730Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T00:24:24.730Z] INFO connection update: connecting
+[2026-09-03T00:24:26.320Z] INFO connection update full: { receivedPendingNotifications: true }
+[2026-09-03T00:24:26.629Z] INFO connection update full: { isOnline: true }
+[2026-09-03T00:24:26.630Z] INFO connection update full: { connection: 'open' }
+[2026-09-03T00:24:26.630Z] INFO connection update: open
+[2026-09-03T00:24:26.630Z] INFO connection opened
+[2026-09-03T00:24:27.066Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Stream Errored (conflict)
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: {
+        tag: 'conflict',
+        attrs: { type: 'replaced' },
+        content: undefined
+      },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 440,
+        payload: {
+          statusCode: 440,
+          error: 'Unknown',
+          message: 'Stream Errored (conflict)'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T00:24:27.065Z
+  }
+}
+[2026-09-03T00:24:27.066Z] INFO connection update: close
+[2026-09-03T00:24:27.066Z] INFO connection closed Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T00:24:27.066Z] INFO lastDisconnect.error full: Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { tag: 'conflict', attrs: { type: 'replaced' }, content: undefined },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 440,
+    payload: {
+      statusCode: 440,
+      error: 'Unknown',
+      message: 'Stream Errored (conflict)'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T00:24:27.066Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 440,
+  error: 'Unknown',
+  message: 'Stream Errored (conflict)'
+}
+[2026-09-03T00:24:27.066Z] INFO reconnecting in 2318ms (attempt 1/5)
+[2026-09-03T00:24:29.882Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T00:24:29.882Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T00:24:29.882Z] INFO connection update: connecting
+[2026-09-03T00:24:31.293Z] INFO connection update full: { receivedPendingNotifications: true }
+[2026-09-03T00:24:31.450Z] INFO connection update full: { isOnline: true }
+[2026-09-03T00:24:31.451Z] INFO connection update full: { connection: 'open' }
+[2026-09-03T00:24:31.451Z] INFO connection update: open
+[2026-09-03T00:24:31.451Z] INFO connection opened
+[2026-09-03T00:24:32.505Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Stream Errored (conflict)
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: {
+        tag: 'conflict',
+        attrs: { type: 'replaced' },
+        content: undefined
+      },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 440,
+        payload: {
+          statusCode: 440,
+          error: 'Unknown',
+          message: 'Stream Errored (conflict)'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T00:24:32.505Z
+  }
+}
+[2026-09-03T00:24:32.506Z] INFO connection update: close
+[2026-09-03T00:24:32.506Z] INFO connection closed Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T00:24:32.507Z] INFO lastDisconnect.error full: Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { tag: 'conflict', attrs: { type: 'replaced' }, content: undefined },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 440,
+    payload: {
+      statusCode: 440,
+      error: 'Unknown',
+      message: 'Stream Errored (conflict)'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T00:24:32.507Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 440,
+  error: 'Unknown',
+  message: 'Stream Errored (conflict)'
+}
+[2026-09-03T00:24:32.507Z] INFO reconnecting in 2737ms (attempt 1/5)
+[2026-09-03T00:24:35.753Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T00:24:35.753Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T00:24:35.754Z] INFO connection update: connecting
+[2026-09-03T00:24:37.111Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Stream Errored (conflict)
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: {
+        tag: 'conflict',
+        attrs: { type: 'replaced' },
+        content: undefined
+      },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 440,
+        payload: {
+          statusCode: 440,
+          error: 'Unknown',
+          message: 'Stream Errored (conflict)'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T00:24:37.111Z
+  }
+}
+[2026-09-03T00:24:37.111Z] INFO connection update: close
+[2026-09-03T00:24:37.111Z] INFO connection closed Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T00:24:37.112Z] INFO lastDisconnect.error full: Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { tag: 'conflict', attrs: { type: 'replaced' }, content: undefined },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 440,
+    payload: {
+      statusCode: 440,
+      error: 'Unknown',
+      message: 'Stream Errored (conflict)'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T00:24:37.112Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 440,
+  error: 'Unknown',
+  message: 'Stream Errored (conflict)'
+}
+[2026-09-03T00:24:37.112Z] INFO reconnecting in 4641ms (attempt 2/5)
+[2026-09-03T00:24:42.276Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T00:24:42.277Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T00:24:42.277Z] INFO connection update: connecting
+[2026-09-03T00:24:44.681Z] INFO connection update full: { receivedPendingNotifications: true }
+[2026-09-03T00:24:44.818Z] INFO connection update full: { isOnline: true }
+[2026-09-03T00:24:44.819Z] INFO connection update full: { connection: 'open' }
+[2026-09-03T00:24:44.819Z] INFO connection update: open
+[2026-09-03T00:24:44.820Z] INFO connection opened
+[2026-09-03T00:24:45.419Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Stream Errored (conflict)
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: {
+        tag: 'conflict',
+        attrs: { type: 'replaced' },
+        content: undefined
+      },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 440,
+        payload: {
+          statusCode: 440,
+          error: 'Unknown',
+          message: 'Stream Errored (conflict)'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T00:24:45.419Z
+  }
+}
+[2026-09-03T00:24:45.420Z] INFO connection update: close
+[2026-09-03T00:24:45.420Z] INFO connection closed Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T00:24:45.420Z] INFO lastDisconnect.error full: Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { tag: 'conflict', attrs: { type: 'replaced' }, content: undefined },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 440,
+    payload: {
+      statusCode: 440,
+      error: 'Unknown',
+      message: 'Stream Errored (conflict)'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T00:24:45.420Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 440,
+  error: 'Unknown',
+  message: 'Stream Errored (conflict)'
+}
+[2026-09-03T00:24:45.420Z] INFO reconnecting in 2433ms (attempt 1/5)
+[2026-09-03T00:24:48.475Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T00:24:48.475Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T00:24:48.475Z] INFO connection update: connecting
+[2026-09-03T00:24:50.860Z] INFO connection update full: { receivedPendingNotifications: true }
+[2026-09-03T00:24:51.156Z] INFO connection update full: { isOnline: true }
+[2026-09-03T00:24:51.157Z] INFO connection update full: { connection: 'open' }
+[2026-09-03T00:24:51.157Z] INFO connection update: open
+[2026-09-03T00:24:51.157Z] INFO connection opened
+[2026-09-03T00:24:51.585Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Stream Errored (conflict)
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: {
+        tag: 'conflict',
+        attrs: { type: 'replaced' },
+        content: undefined
+      },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 440,
+        payload: {
+          statusCode: 440,
+          error: 'Unknown',
+          message: 'Stream Errored (conflict)'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T00:24:51.585Z
+  }
+}
+[2026-09-03T00:24:51.586Z] INFO connection update: close
+[2026-09-03T00:24:51.586Z] INFO connection closed Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T00:24:51.587Z] INFO lastDisconnect.error full: Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { tag: 'conflict', attrs: { type: 'replaced' }, content: undefined },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 440,
+    payload: {
+      statusCode: 440,
+      error: 'Unknown',
+      message: 'Stream Errored (conflict)'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T00:24:51.587Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 440,
+  error: 'Unknown',
+  message: 'Stream Errored (conflict)'
+}
+[2026-09-03T00:24:51.587Z] INFO reconnecting in 2228ms (attempt 1/5)
+[2026-09-03T00:24:54.333Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T00:24:54.334Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T00:24:54.334Z] INFO connection update: connecting
+[2026-09-03T00:24:55.948Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Stream Errored (conflict)
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: {
+        tag: 'conflict',
+        attrs: { type: 'replaced' },
+        content: undefined
+      },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 440,
+        payload: {
+          statusCode: 440,
+          error: 'Unknown',
+          message: 'Stream Errored (conflict)'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T00:24:55.948Z
+  }
+}
+[2026-09-03T00:24:55.949Z] INFO connection update: close
+[2026-09-03T00:24:55.949Z] INFO connection closed Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T00:24:55.949Z] INFO lastDisconnect.error full: Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { tag: 'conflict', attrs: { type: 'replaced' }, content: undefined },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 440,
+    payload: {
+      statusCode: 440,
+      error: 'Unknown',
+      message: 'Stream Errored (conflict)'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T00:24:55.950Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 440,
+  error: 'Unknown',
+  message: 'Stream Errored (conflict)'
+}
+[2026-09-03T00:24:55.950Z] INFO reconnecting in 4026ms (attempt 2/5)
+[2026-09-03T00:25:00.501Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T00:25:00.501Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T00:25:00.502Z] INFO connection update: connecting
+[2026-09-03T00:25:02.543Z] INFO connection update full: { receivedPendingNotifications: true }
+[2026-09-03T00:25:02.844Z] INFO connection update full: { isOnline: true }
+[2026-09-03T00:25:02.845Z] INFO connection update full: { connection: 'open' }
+[2026-09-03T00:25:02.845Z] INFO connection update: open
+[2026-09-03T00:25:02.845Z] INFO connection opened
+[2026-09-03T00:25:03.005Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Stream Errored (conflict)
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: {
+        tag: 'conflict',
+        attrs: { type: 'replaced' },
+        content: undefined
+      },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 440,
+        payload: {
+          statusCode: 440,
+          error: 'Unknown',
+          message: 'Stream Errored (conflict)'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T00:25:03.005Z
+  }
+}
+[2026-09-03T00:25:03.006Z] INFO connection update: close
+[2026-09-03T00:25:03.006Z] INFO connection closed Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T00:25:03.006Z] INFO lastDisconnect.error full: Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { tag: 'conflict', attrs: { type: 'replaced' }, content: undefined },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 440,
+    payload: {
+      statusCode: 440,
+      error: 'Unknown',
+      message: 'Stream Errored (conflict)'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T00:25:03.006Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 440,
+  error: 'Unknown',
+  message: 'Stream Errored (conflict)'
+}
+[2026-09-03T00:25:03.007Z] INFO reconnecting in 2871ms (attempt 1/5)
+[2026-09-03T00:25:06.390Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T00:25:06.391Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T00:25:06.391Z] INFO connection update: connecting
+[2026-09-03T00:25:07.574Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Stream Errored (conflict)
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: {
+        tag: 'conflict',
+        attrs: { type: 'replaced' },
+        content: undefined
+      },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 440,
+        payload: {
+          statusCode: 440,
+          error: 'Unknown',
+          message: 'Stream Errored (conflict)'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T00:25:07.574Z
+  }
+}
+[2026-09-03T00:25:07.574Z] INFO connection update: close
+[2026-09-03T00:25:07.574Z] INFO connection closed Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T00:25:07.575Z] INFO lastDisconnect.error full: Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { tag: 'conflict', attrs: { type: 'replaced' }, content: undefined },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 440,
+    payload: {
+      statusCode: 440,
+      error: 'Unknown',
+      message: 'Stream Errored (conflict)'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T00:25:07.575Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 440,
+  error: 'Unknown',
+  message: 'Stream Errored (conflict)'
+}
+[2026-09-03T00:25:07.575Z] INFO reconnecting in 4085ms (attempt 2/5)
+[2026-09-03T00:25:12.194Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T00:25:12.195Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T00:25:12.195Z] INFO connection update: connecting
+[2026-09-03T00:25:13.774Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Stream Errored (conflict)
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: {
+        tag: 'conflict',
+        attrs: { type: 'replaced' },
+        content: undefined
+      },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 440,
+        payload: {
+          statusCode: 440,
+          error: 'Unknown',
+          message: 'Stream Errored (conflict)'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T00:25:13.774Z
+  }
+}
+[2026-09-03T00:25:13.775Z] INFO connection update: close
+[2026-09-03T00:25:13.775Z] INFO connection closed Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T00:25:13.775Z] INFO lastDisconnect.error full: Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { tag: 'conflict', attrs: { type: 'replaced' }, content: undefined },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 440,
+    payload: {
+      statusCode: 440,
+      error: 'Unknown',
+      message: 'Stream Errored (conflict)'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T00:25:13.775Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 440,
+  error: 'Unknown',
+  message: 'Stream Errored (conflict)'
+}
+[2026-09-03T00:25:13.775Z] INFO reconnecting in 8232ms (attempt 3/5)
+[2026-09-03T00:25:22.521Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T00:25:22.521Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T00:25:22.521Z] INFO connection update: connecting
+[2026-09-03T00:25:24.075Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Stream Errored (conflict)
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: {
+        tag: 'conflict',
+        attrs: { type: 'replaced' },
+        content: undefined
+      },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 440,
+        payload: {
+          statusCode: 440,
+          error: 'Unknown',
+          message: 'Stream Errored (conflict)'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T00:25:24.075Z
+  }
+}
+[2026-09-03T00:25:24.075Z] INFO connection update: close
+[2026-09-03T00:25:24.075Z] INFO connection closed Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T00:25:24.076Z] INFO lastDisconnect.error full: Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { tag: 'conflict', attrs: { type: 'replaced' }, content: undefined },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 440,
+    payload: {
+      statusCode: 440,
+      error: 'Unknown',
+      message: 'Stream Errored (conflict)'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T00:25:24.076Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 440,
+  error: 'Unknown',
+  message: 'Stream Errored (conflict)'
+}
+[2026-09-03T00:25:24.076Z] INFO reconnecting in 16816ms (attempt 4/5)
+[2026-09-03T00:25:41.413Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T00:25:41.413Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T00:25:41.413Z] INFO connection update: connecting
+[2026-09-03T00:25:43.304Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Stream Errored (conflict)
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: {
+        tag: 'conflict',
+        attrs: { type: 'replaced' },
+        content: undefined
+      },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 440,
+        payload: {
+          statusCode: 440,
+          error: 'Unknown',
+          message: 'Stream Errored (conflict)'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T00:25:43.304Z
+  }
+}
+[2026-09-03T00:25:43.304Z] INFO connection update: close
+[2026-09-03T00:25:43.304Z] INFO connection closed Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T00:25:43.304Z] INFO lastDisconnect.error full: Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { tag: 'conflict', attrs: { type: 'replaced' }, content: undefined },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 440,
+    payload: {
+      statusCode: 440,
+      error: 'Unknown',
+      message: 'Stream Errored (conflict)'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T00:25:43.305Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 440,
+  error: 'Unknown',
+  message: 'Stream Errored (conflict)'
+}
+[2026-09-03T00:25:43.305Z] INFO reconnecting in 30866ms (attempt 5/5)
+[2026-09-03T00:26:14.684Z] INFO P3TROHOLIC bot started. Scan QR in terminal to authenticate.
+[2026-09-03T00:26:14.684Z] INFO connection update full: {
+  connection: 'connecting',
+  receivedPendingNotifications: false,
+  qr: undefined
+}
+[2026-09-03T00:26:14.684Z] INFO connection update: connecting
+[2026-09-03T00:26:16.126Z] INFO connection update full: {
+  connection: 'close',
+  lastDisconnect: {
+    error: Error: Stream Errored (conflict)
+        at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+        at WebSocketClient.emit (node:events:509:28)
+        at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+        at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+        at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+        at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+        at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+      data: {
+        tag: 'conflict',
+        attrs: { type: 'replaced' },
+        content: undefined
+      },
+      isBoom: true,
+      isServer: false,
+      output: {
+        statusCode: 440,
+        payload: {
+          statusCode: 440,
+          error: 'Unknown',
+          message: 'Stream Errored (conflict)'
+        },
+        headers: {}
+      }
+    },
+    date: 2026-09-03T00:26:16.126Z
+  }
+}
+[2026-09-03T00:26:16.126Z] INFO connection update: close
+[2026-09-03T00:26:16.126Z] INFO connection closed Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9)
+[2026-09-03T00:26:16.127Z] INFO lastDisconnect.error full: Error: Stream Errored (conflict)
+    at WebSocketClient.<anonymous> (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:795:18)
+    at WebSocketClient.emit (node:events:509:28)
+    at file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:465:35
+    at processData (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:126:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.decodeFrame (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:197:13)
+    at async WebSocketClient.onMessageReceived (file:///C:/Users/shadr.JARVIS/Desktop/DotVV/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:442:9) {
+  data: { tag: 'conflict', attrs: { type: 'replaced' }, content: undefined },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 440,
+    payload: {
+      statusCode: 440,
+      error: 'Unknown',
+      message: 'Stream Errored (conflict)'
+    },
+    headers: {}
+  }
+}
+[2026-09-03T00:26:16.127Z] INFO lastDisconnect.error.output.payload: {
+  statusCode: 440,
+  error: 'Unknown',
+  message: 'Stream Errored (conflict)'
+}
+[2026-09-03T00:26:16.127Z] INFO Max reconnect attempts reached — give up. Check network or try again later.

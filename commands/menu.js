@@ -5,13 +5,12 @@ module.exports = {
   async execute({ sock, msg, jid, helpers }) {
     try {
       // Only display a small public subset; other commands are private and available in DM
-      const publicNames = new Set(['ginfo', 'st', 'tr']);
-      const publicAliases = new Set(['.ginfo', '.st', '.tr']);
+      const publicNames = new Set(['ginfo', 'st', 'tr', 'admin']);
       const cmds = (helpers.commands || []).slice().filter(c => {
         if (!c) return false;
-        if (publicNames.has(c.name)) return true;
-        if (c.aliases && c.aliases.some(a => publicAliases.has(a))) return true;
-        return false;
+        const names = [c.name, ...(c.aliases || [])]
+          .map(name => name.replace(/^\./, ''));
+        return names.some(name => publicNames.has(name));
       }).sort((a,b) => a.name.localeCompare(b.name));
       const lines = [];
       lines.push('╔════════════════════════════════════╗');
@@ -19,7 +18,7 @@ module.exports = {
       lines.push('╠════════════════════════════════════╣');
 
       for (const c of cmds) {
-        const rawPrimary = (c.aliases && c.aliases.length) ? c.aliases[0] : ('.' + c.name);
+        const rawPrimary = '.' + c.name.replace(/^\./, '');
         const primary = `*${rawPrimary}*`;
         const aliasList = (c.aliases && c.aliases.length > 1) ? ` (aliases: ${c.aliases.slice(1).join(',')})` : '';
         const name = primary.padEnd(14);
