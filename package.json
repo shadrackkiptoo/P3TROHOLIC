@@ -2,11 +2,13 @@
   "name": "P3TROHOLIC",
   "version": "0.1.0",
   "main": "index.js",
+  "engines": {
+    "node": "20.18.0"
+  },
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "@adiwajshing/baileys": "^5.0.0",
     "@whiskeysockets/baileys": "^7.0.0-rc14",
     "libphonenumber-js": "^1.13.12",
     "qrcode-terminal": "^0.12.0",

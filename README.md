@@ -3,7 +3,7 @@
 Simple WhatsApp Web bot that converts images to stickers.
 
 Prerequisites
-- Node.js 16+
+- Node.js 20.18.0
 
 Install
 ```bash
