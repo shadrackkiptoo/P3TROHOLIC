@@ -61,7 +61,16 @@ async function start() {
   } = await import('@whiskeysockets/baileys');
   downloadContentFromMessage = downloadContent;
   const { version } = await fetchLatestBaileysVersion();
-  const authDir = process.env.AUTH_DIR || path.join(__dirname, 'auth_info');
+  const defaultAuthDir = path.join(__dirname, 'auth_info');
+  let authDir = process.env.AUTH_DIR || defaultAuthDir;
+  if (authDir !== defaultAuthDir) {
+    try {
+      fs.mkdirSync(authDir, { recursive: true });
+    } catch (e) {
+      console.error(`AUTH_DIR is not writable: ${authDir}. Falling back to ${defaultAuthDir}.`);
+      authDir = defaultAuthDir;
+    }
+  }
   const { state, saveCreds } = await useMultiFileAuthState(authDir);
 
   const sock = makeWASocket({
