@@ -22,7 +22,6 @@ Additional commands
 - `.tts <text>` or `.say <text>` sends a native voice note.
 - `.download <URL>`, `.dl <URL>`, or `.video <URL>` downloads supported social videos.
 - `.lyrics <song name>` or `.lyric <song name>` searches for lyrics and artwork.
-- In groups, links from non-admin members are deleted and the sender is removed.
 - New statuses are automatically marked as viewed without forwarding or saving them.
 
 Usage with command
